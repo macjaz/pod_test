@@ -1,0 +1,1510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039652FD97637B73DF5BA587F3DD0A95 /* CustomerMessageReply.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 667089D47776BBEDC2A208669056EA40 /* CustomerMessageReply.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04AE6E0941A6BEAB7FC8107066D478AF /* GroupMessageReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B200AF39470F571BAE9C99B80C4C6178 /* GroupMessageReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0531F034E28A2A973BDC950FCC92C6EF /* SakuraHttpUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF40637935FA4EEA005FDFFB2DBA0E2 /* SakuraHttpUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		071E3359B9C18F8CF8AF367694BCBC4D /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B8CF358AFDFBF8CA3461424E8C1774 /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0840DFFCBB90545D01EF4B3119E78857 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DB15C8A67164CE3082B0B09369E0B7 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091A6DC33747D227C99B2434A62B7616 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC514A099FB5CF244E59C196EB94CEA6 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0979A676935EE2870F8EB9F4D736C5A4 /* Pods-pod_test_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A59CA1E029C65F4F78AC8DA28F6725 /* Pods-pod_test_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097AAE881195193F90EFE8B0E91D5C1C /* CustomerMessageReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 693567B3BEF454A36B34C99E269AD5AC /* CustomerMessageReq.pbobjc.m */; };
+		09D3A649106276FF1A3EBCD6A971742B /* SakuraURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA1FE61AC99075F8D3E05F6B02EDE /* SakuraURLRequestSerialization.m */; };
+		0A8A3F3F380B73CAC278B3030BB548B4 /* ChatMessageNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AF4A613EC2E3A0C3716214A93147FD /* ChatMessageNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDFE17E440CCAFE352C445A4DDAF6DB /* SystemMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BE155EF94D8193160D74BA158983D2 /* SystemMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F43742643254AA9B0FB3C32C96D815 /* ImageMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6283284F91A371A949307812AD353505 /* ImageMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1447E481EDCE8A7AADBD5DFB91F9BAD2 /* SakuraFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B883894A439C6FA70C7033D780F7CAD /* SakuraFormData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145A4AB726A2C2771491ACCF869B0671 /* HeartbeatReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB43BC22F594B7F0BA5D78669B69812 /* HeartbeatReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		157C6F165E2540A5C588A4020B297CFE /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1818AB3B77977203316744B60EB9F0 /* Duration.pbobjc.m */; };
+		15EEF3D70D6E3220F5F4563B5AEC39C2 /* NewsMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EACBFBEED0962C9ADA2A119E18FFFF5B /* NewsMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1817D8F06A5AE2E6B4CE02A6C0806825 /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 08742EFC98A7DC97DF300FF9407C569B /* Any.pbobjc.m */; };
+		1847738ADEC4142935027F1C19F97740 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 522A64F44D914AD49BD2113A5B25BA75 /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B6C0522F5F62DCC77857A467C63A15 /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0F7AF954111B6C62CEAB1BF3CBD6DA /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A2A27F08EAC54D1F691EFF9A8019367 /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 59186D8EDA33CE5751BBF80D98DE6361 /* GPBUtilities.m */; };
+		1B9BCCE810CDD9ED5DB072A250D6C3B3 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 8672610725C7FF37CEED65CBFD7A39AD /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD5BCAD73CACF7541F12AC6AF029EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C15BA9389F2221B14C95B34806F35B8 /* SakuraConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8FF8DF3AB31E4F82756A2BD19408B5 /* SakuraConfig.m */; };
+		1D09AF6B2BCC6785CBFDF0A88AA4AB26 /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F88FC38ED413657FCDCC3615965F074 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DDA75F8F2BB709BB308E29647C3DFEE /* Pods-pod_test_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C85F0C3E1B1EBDC38AB004EF25E403C5 /* Pods-pod_test_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E406AB594254CCA8D91F69726651587 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1A7F01C8E897E8D2EF627A195B6AFA /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2292C2B9402BCCA7DF6E0D1593A26BF6 /* ImageMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A744CA61EF2E149F273EC72F41FCDD /* ImageMessage.pbobjc.m */; };
+		22B47C39FB75A99E6EAFC63654571F2F /* SessionStateMessageNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E541D40B59FC2E422BFC6A506308EC /* SessionStateMessageNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2551A55C40100CC284FFB408817C6946 /* GroupMessageNotifyAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD486D6FEE7F84700DE47EB07207A86 /* GroupMessageNotifyAck.pbobjc.m */; };
+		26C69213B4DE77744734C875B678AF75 /* ShortVideoMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AC0089A9F31EFE5B174C95F2B9D41F /* ShortVideoMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279BD234D9951EC9F1C71BB0236B57C1 /* ReceiveStateMessageReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 127046E3A901096DC87A0E27982F436F /* ReceiveStateMessageReq.pbobjc.m */; };
+		2939888F1218588EBFD559AF8526131A /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C71EE4BEEE40BAC790373E3B95E3CDB /* GPBWireFormat.m */; };
+		2943B0D067427C72CB8DAF26B2E44000 /* SakuraURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F28F1F3E8440FB30B8C7E82CD21C7061 /* SakuraURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A08E44EC9D456C32F503312522E4A45 /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A2033DF79AC4F7D32448987EFCBD41 /* GPBUnknownField.m */; };
+		2B4F4AFFB74A439468E2CA176E15900D /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9BB3CDB16EE65B36163FB6E08B005 /* Api.pbobjc.m */; };
+		2D73AD1FE6D93A365D956FA180C6FA05 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF5888DCA4122D2E1422F86271C8325 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FA099B4953919F465F6D09A8D6B61B /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC544FB5203DDF51EA97D677636B103 /* GPBDictionary.m */; };
+		3301B03AB6A2E2371A4801B5FAC72238 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0DF1F5D51E429CED8C09FD224ED78E /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330A5894DBFB2B0742C37A1E9D28D3A2 /* HeartbeatReqAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 045C1202AE2EED3EE76A1CCF463F0ABA /* HeartbeatReqAck.pbobjc.m */; };
+		3341FA6CF51B8F9DBCCBD3803A2898A2 /* SakuraLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 41908C8AA3F513C7C6B1A92DA66A0C06 /* SakuraLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E8E7E6E42493EC4696449AA0A9D5CE /* TextMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A81749DB4A11D5F54D8D7FDBCA331 /* TextMessage.pbobjc.m */; };
+		359A0E0DCCFA3C288BF776E465D4C524 /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE6E809E6927C5EDC237B49A726B1AE /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360925542E0F9DD811D67880C48157C7 /* MessageBody.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EBFF0ECDBFD891A266DDF3A7844DAD /* MessageBody.pbobjc.m */; };
+		3669E6A4A4F0A262ECF5DF590D24A0FB /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E91B973A5B1C0BE325032FC5BCDCF4 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373DA5229B1569B5682EB4D7F96CA98A /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1277086A32C86F2F3CA267A7DB2864 /* Wrappers.pbobjc.m */; };
+		38A76CC089B6668DF28F12E93C1EB859 /* CustomerMessageReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7D4E666DD60654E0A3BBA151CCFDAA /* CustomerMessageReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39564C3B1E2A2E1C09B8D1DFCD48DAA5 /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 754260652D51C27BF00825A4FC71F877 /* Empty.pbobjc.m */; };
+		3AB30AA48039D742977703EAEDFBEA53 /* SakuraApi.h in Headers */ = {isa = PBXBuildFile; fileRef = DF17C07984573A7AB387EEABDC6A3F1B /* SakuraApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D527A1C8D2B7564DC68AC4F2246D51C /* ConnectReqAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A939FE15C718C91EE23FA8B0A6A127 /* ConnectReqAck.pbobjc.m */; };
+		3E2C6AAF9B284F9F9C3BF9B7DE21D141 /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = FB61F1CBDE59405DE9C7F767E0B47E39 /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E75E293AB9BA84B3330A25DD3C380F3 /* SakuraIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDD2B8F4160627846B9DF866AF69CC4 /* SakuraIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402751297BE4093567637E8A861B9F9F /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC1D5AC0B9008C7A818FABCD5D1F5FF /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432DA26E09DDE774C31C9B8F2C70365D /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 878548BECCEC12A978F8C4EBCAA6B537 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44ADF91E656A0E2D783E9E37A24D33A7 /* RecallMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1736E6B78E1C43B6E4D7613AEAE61EE4 /* RecallMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457D908F4D2283D9697323B7713A1F57 /* SakuraTypes+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 227EF930EBAE075EBC42B56C559F3BB9 /* SakuraTypes+Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A50FCFEF1F03BBBEFF8E9FB19D0669 /* ChatMessageReqAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C78816181B18003259FF7C0EAA2BBE /* ChatMessageReqAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		461BDDD0A6C4F8EF7B77EE14394F1A78 /* SakuraReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E022C1944D3A5946F134E38506FC109D /* SakuraReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46FCBF8B9390DD730C9DF8CD60281770 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7AD1E7B07E0DE69769C7B417CA498 /* GPBCodedInputStream.m */; };
+		48DD3E5EB5E38461D0753CC833D03146 /* ShortVideoMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 954297873DF1E2B90D660A84ED3A79A5 /* ShortVideoMessage.pbobjc.m */; };
+		4A2E724EC2742F1761D16BF6F90C348D /* MessageType.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8DD2F77A26848900A48976CF1FCC8B /* MessageType.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A70E35E86E4723085348763E8514D07 /* FileMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C87140A6438F1D95069E8B13D68B7727 /* FileMessage.pbobjc.m */; };
+		540D15FB7A11007A1DCA0E663A1F08F3 /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42912FC8953CEFB4B566877F86B244F2 /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5521C9C94D13F36B71E824ACE807205C /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D59B14312463EF8B6191C05CEEF05D08 /* GPBCodedOutputStream.m */; };
+		574EC14D9288414C9E6DA5F2043DCC6E /* GroupMessageNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AC87B964A48454D183B0C0A537A784 /* GroupMessageNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58ECCCF0A75D306ED5F4B97E8824B3F9 /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C22022EEFA49AD7248BBDE22114EB49F /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4290220830B6B15597E21EBE7DC83B /* ChatMessageReqAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 260F31040FB5227E7437FE50308A8DFC /* ChatMessageReqAck.pbobjc.m */; };
+		5BC9FE3157B897681F56E063A059AABB /* Protocol.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4239B6670EE0C9BEA1CA4CD1C5AFE8C9 /* Protocol.pbobjc.m */; };
+		5EFF97F256EB4CF9626AE2F113BC2868 /* ChatMessageReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CFF77552F2B2BB022EA157459DF22 /* ChatMessageReq.pbobjc.m */; };
+		60F8530E4CA12BC8AC20D4C3E9CF6A5A /* VoiceMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8102033EFEF3ACD8D8A1C696527088 /* VoiceMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6337EEA8F42E85FD818A4DD752915213 /* VideoMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 917C69667841F323B4B49221AA324578 /* VideoMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670948851C6F0F521460B4EFCB0E0B59 /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E662C08FE70C3943F5C7F9EEC71F03 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676D6ECC082EFF2782DD15020FD6E374 /* CustomerMessageReqNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = CC86A55819F8E9D8257B31FE188384F8 /* CustomerMessageReqNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6A415D8DCF090C6F7612C4F29002ED /* ChatMessageReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2874BBA3B1001BFE0AE4A38EFABA6210 /* ChatMessageReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5DE5C20FC58ADF6CE193E435B3EDA5 /* GroupMessageNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB50DF9573DCE141D864C944AB652A0 /* GroupMessageNotify.pbobjc.m */; };
+		6FBCFDC9E7DE19232605748B2BFA217E /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA8D3CB875B33FB75983BA6C884710E /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C54901C325D5CEA3E1E5B88F7D397D /* SakuraDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38359406B1197EA3434C471A0446A2B9 /* SakuraDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715029EE5BF822F93CD1E0D1D4F5B300 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ECD8D27493F40AF0A2D4CAC5D4BB4D /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71ECF7F36F3491DDF6DE2C7C099462B0 /* ChatMessageNotifyAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF7A390D5271D5CEF41269D37D66283 /* ChatMessageNotifyAck.pbobjc.m */; };
+		75013EA9CC438256A7C4F9183707ACD9 /* CustomerMessageReplyNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 491ECC98D36BF10F13DE928A201D4D9A /* CustomerMessageReplyNotify.pbobjc.m */; };
+		7537219A3682CEC4C05952FBE846131F /* ReceiveStateMessageReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 81551253B27EB39E8A1E12B5D6DCE56F /* ReceiveStateMessageReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762B704BFF9B76829A57A6633FBFCCB3 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEBAC10E3AFBF5F7427ADB4714FDBC6 /* GPBExtensionRegistry.m */; };
+		78A7A9D7A783836C2438E8178BB3BE83 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB95831C479D01870875BFB000B5F87B /* GPBDescriptor.m */; };
+		78B3D59EBF66BC44B66D575543E09C32 /* BroadcastMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 464AD0F7E69CA9BB55ABA89B9EB1567D /* BroadcastMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D1C7CB68FEF42F17A1E6A945CB4363 /* SessionStateMessageNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C125C280CAC23182A6F0D7DB38D2D14 /* SessionStateMessageNotify.pbobjc.m */; };
+		806D4476CBFE509BD69951212FEA3D83 /* DisconnectNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F0EC631403F3AFA9C7BF69CA26DAF3 /* DisconnectNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8283DF38687D13C25CFC4527761D33BE /* CustomMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E69546517F2E81761FB878F76C568 /* CustomMessage.pbobjc.m */; };
+		82F6459AEA43D83825F423694CE5280E /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 414A8AB19B6420B2523132A5CDFAC994 /* GPBArray.m */; };
+		84C06C99973C6947B1C79256BF032083 /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC35D7382B3B38CF3167C123EAEEA7D /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865861764D02C206F5723F0E20D34B8A /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFED8D5B6DA9276B4DEFCEC93A23E04 /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8725D0D84DEEDBFBFD31DFFA1F962DDE /* pod_test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBEBC2F00426B951DC03B05D228082F /* pod_test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3BC67AB03BE38927D7C07154D4EB5E /* SakuraMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 17087F08FE370C4101D470BE30C3AFE0 /* SakuraMessage.m */; };
+		8D16003C3888559C1D87D3E25151A510 /* RecallMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 687069B779F46F14895D8D956FA55C4A /* RecallMessage.pbobjc.m */; };
+		8D648E6E19BE09EB621BC3F9E3D58A62 /* SakuraReconnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C1B56DE71D151C961E1411E22310F0 /* SakuraReconnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E97FD18217853CEE5F7D0FE33B13518 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DA65D449AA8E5430A10468B636728A /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED650BEA9B0DA383A59F3E5BE61128E /* SystemMessageNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDA2A8C2F9D0078CC9677EC200A4328 /* SystemMessageNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916EC74CCA63E0DDF81A8F8C2E7740A8 /* MessageBody.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFDB162B495499716413ECDD76E8514 /* MessageBody.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921E61017376425B34C32F7CBAE67BEF /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AF0C15C5C50947482C2C46DF5AB241 /* SourceContext.pbobjc.m */; };
+		92648C365D9885C1947DAFFCDCDCB859 /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF90A5B936700BD6748A66F897A9688 /* GPBRootObject.m */; };
+		941231BCB948D2169DE93D5DF311909E /* ConnectReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 518594DEA9AFDD4B963252ADA7C11F00 /* ConnectReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9437A27FBA51699D179462A1BC47D44F /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 99910ABA66D0B59E59D1412C4075212D /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9470197A557F43B8B3462D2542FDA8B5 /* GroupMessageReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 13325198AA2063B8BAA8034BFC39E688 /* GroupMessageReq.pbobjc.m */; };
+		9477733D47CEBF9234ED486D523D4033 /* GroupMessageReqAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAE8FD84F3541E88FD274E3F024E7D0 /* GroupMessageReqAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B081EDFE5CD0FD3D7FFB64916000ED /* BroadcastMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACEE42A56CD12CA143B429444B5B2B5 /* BroadcastMessage.pbobjc.m */; };
+		95D46FCF6ECC52AA501185C56C08D876 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A079D26367702773EDCAAA66F7222F /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F93CDA319707AE3A415BC3E3E8CCDA /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EF24E631F2989D8D21FC89BEF0CC66A3 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97850E111ADBD38DE28C66608C672487 /* SakuraTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCB38BEE5D7B9E98343B50D18CFE652 /* SakuraTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9913779E7FBB05B72479DE2C39852BB6 /* HeartbeatReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6AD84F2D4FDA190382D858D27979C9 /* HeartbeatReq.pbobjc.m */; };
+		9AB6C7ED9AAB1CF429E3E8CF5B48ED4D /* SakuraHttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD7AA16C5D981E9FCB7DECD7EF28630 /* SakuraHttpUtils.m */; };
+		9AFE2C0E9E363ED1C7C17DCF51C84983 /* SakuraReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A152C3EAB6B1748B3CA5A31E7BC2DCF /* SakuraReachability.m */; };
+		9B3B744F5DB0A63A9DFCB912B20A3476 /* ProtocolType.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F8BE780A38DBF537F6E1A23ED5CC1 /* ProtocolType.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4DA858F0F5666C7F5DE444DE6A1B45 /* ChatMessageNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2622C1E0AF948B787D0CC656822C7A98 /* ChatMessageNotify.pbobjc.m */; };
+		9BA9A7AA5E7CD39DFF1C0D9826F7A244 /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4B93DDC06F151CE9C4CF60C11880FC /* FieldMask.pbobjc.m */; };
+		9F5DB0E6B54449B6AFC8A965C2172EEF /* SakuraApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099E64C79E0E125A263A5700CE48E52 /* SakuraApi.m */; };
+		9FBEF62B746B0349D60598D13BDC166D /* Protocol.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B53FCFAE4B2DA7AAED49AB5FD2A7A019 /* Protocol.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDF6ECCCF560D0DEA17F376E5D78F97 /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCB4DAE66489DAAE69FCDA61483C8F /* GPBExtensionInternals.m */; };
+		9FE34E5B2C9A4BC4C9C06C3543550B2E /* SakuraReconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = D54486B5685AA33A84D3609FDC1A75B8 /* SakuraReconnect.m */; };
+		A159C69000CA165BD6E9E9D54556480B /* ChatMessageNotifyAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5FE6096BC1B608E011E969316C81BE /* ChatMessageNotifyAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A386BEF632F4FDB249023B46D461B104 /* ReceiveStateMessageNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A77744B4E37480F7D0C98FEA477D416 /* ReceiveStateMessageNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43CABC6D07D8F8845FBBB0832DEFF4D /* SakuraLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8023C3CDF3F4F6E4A81277F4A0756C29 /* SakuraLogHelper.m */; };
+		A4AC587638EDB2FCDC7A43164BEEDF56 /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C8418DF257294ABB7ACFD26549510834 /* Timestamp.pbobjc.m */; };
+		A601970A20EA527FB5C5DEC0700096E3 /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AF62124523B0F8870C6E0C2B2B611E /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A744C69011869802DE96463A028A595F /* SessionStateMessageReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E30AAADA33B270D72BB3E280306DF20 /* SessionStateMessageReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B2F0A5575263CE40FED690A86129C4 /* ProtocolType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B74EBCF5B24918C8DBC836FA5EC1CA3 /* ProtocolType.pbobjc.m */; };
+		AA6815ED4F14EB15608B244E4B650696 /* HeartbeatReqAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 613E786D63EE5634308BBC09323C6252 /* HeartbeatReqAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB7995BC68404A2E2304424879DEF0F9 /* NewsMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FD965D204B2F2D616783D548DABD4D5E /* NewsMessage.pbobjc.m */; };
+		AD42EC2BCBB99C207D884536AD0C22FC /* VideoMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BB7C1477903A37294A7238A540D9CD /* VideoMessage.pbobjc.m */; };
+		B01BFE718F2DA45E81321E28835CCBF4 /* ConnectReqAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 519B9D6323A171E72D9186441B95DF61 /* ConnectReqAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08EFB18D5FF81ED0D37E7A276108A93 /* SakuraMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CE98C4E4196F9D8971B5CC7543A576 /* SakuraMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B892D793728714993B0C28822DCA13 /* CustomerMessageReplyNotify.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 603A7C8A1696A8819F493DE54495433D /* CustomerMessageReplyNotify.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C72BE25C34E4DE875033B7915BEFB7 /* RemindMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3A66EB121F40AA131AE94AC9D66CCC /* RemindMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3AE5447DC6D23AB209583AA254540FA /* GroupMessageNotifyAck.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2C3E92F556A4E5888841295B5DA427 /* GroupMessageNotifyAck.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B540C34D23846D7A9B61DEFD761F6E9C /* RemindMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 02246892C4BF9A3B8908D85F7A6E0544 /* RemindMessage.pbobjc.m */; };
+		B65EE4AC2CD695B4E15D2B1B138F4779 /* DisconnectReq.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A268FB08F2B40E3F39E0905DBF94780A /* DisconnectReq.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6706E3CB428D362865390CDE86614CB /* CustomMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867BB7A9C80CDA2D9DE15EC2DCE2F55 /* CustomMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B736D467A00689FEEAC94FDA7E7486D1 /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 62998F23622B0C47FB12FD604CE15645 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB72E13B4E70E6B2BCBAF975A1325D3C /* DisconnectReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 464396D6B65331AB5E6C31944E85BFF4 /* DisconnectReq.pbobjc.m */; };
+		BE4EEC8720A6CD6EDA1CC277619D6A3B /* SakuraConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D90A746CAF75DDEB8F5A7A4566AC7C /* SakuraConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04D6105BD786CCAC03FD8AE73CD0DB4 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C512DA9203F95050D108A83F4CE069 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C118C6A5AF7D045A1B0A1162D48305EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1C96399D2757E826A477D803404F0DC /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EA14DB326033AD5E4BD8252F52964DD1 /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E846398C2101F09CBC601DFA6234FA /* SessionStateMessageReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B48887CFBE47065DC68AD53BC49B5C /* SessionStateMessageReq.pbobjc.m */; };
+		C347F3F5214ED1CBDB7C89CA8BF668BF /* SystemMessageNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 793A3789B0A480EB911C398A0F69AB81 /* SystemMessageNotify.pbobjc.m */; };
+		C3A35201FF5244007FF62366EE576400 /* SakuraTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7086FE2228CF9E621AF1DA8EBEC087B /* SakuraTaskDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50DEA65D9B4FB31C0D4DAE2C34DDBDF /* VoiceMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 612835FF31545224B8F283AA40EADB76 /* VoiceMessage.pbobjc.m */; };
+		C79BFC88871E7E09DD2E23C5A708B74D /* pod_test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA7D9124D6AAEB82A39B697B551FD1C /* pod_test-dummy.m */; };
+		C80CE127EA50964865C5C7871A284EF7 /* ConnectReq.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E02914DD0DE9A42F1B5E137859A40 /* ConnectReq.pbobjc.m */; };
+		C96B35FB8860F9CF926560831C472D5D /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BE0CAEB9BABCD5B353F9C9EB98B63 /* Type.pbobjc.m */; };
+		CA8A291B531048D2D3D88B101C5BCAAB /* MessageType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A148637500A4745F02DB1992C7BC3C24 /* MessageType.pbobjc.m */; };
+		CB0B1D2C3AB26E2B9287D646211F6A0A /* CustomerMessageReply.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F69249942AD44231D874A57B76C39D /* CustomerMessageReply.pbobjc.m */; };
+		CBE7EE90B6268959E3CAEA9E57190F59 /* SakuraIO.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD8A40D7C23C6A85B086E85A49CFCCE /* SakuraIO.m */; };
+		CDE465E6DB45C6C8A1669F5DB227E92B /* GroupMessageReqAck.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DA22B3A06B06B0BE8610D15CDAB93E /* GroupMessageReqAck.pbobjc.m */; };
+		CE17CA7D446D1034BDE7B72379BEA80C /* SakuraLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C5E73E550D33744A338DD93402C788 /* SakuraLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29DB382ABB165334A800363F384F018 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F88CC9024809EEF7E54BBD55AD829EF /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4C31A621F1347E7BFC82E4B0A43530C /* SakuraKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A9045DFDAC25C8E704F4FBA6E5B5488E /* SakuraKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F554B88A91C622C2E40B9F0DF7C21C /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FB248EC2796592DB8CC541D92AFB5BD4 /* Struct.pbobjc.m */; };
+		D72E9FEECA8C515CD1881D3CB2992341 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 7704FE24ADDBEAF70A27567B347E9347 /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8BE5D1594C82DE32EECDF0645191D58 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = AACD9F102D434F229DC14C746E73CCE9 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E156961E9FD2C1EACD16125E42F68B7B /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6298B9D542D3D5D08FC44354CE1F84 /* GPBUnknownFieldSet.m */; };
+		E4E85C501BFEF54773E237FEABCC6354 /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6FAF640AA5F706DECDAB203B59EF54 /* GPBWellKnownTypes.m */; };
+		E5E57D7DF69E8A37040AD4ACDA128991 /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6222D9739B8D7218A574DD8F1F5C060D /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6AF4464F0B2323DADECBDFCCDD198D5 /* CustomerMessageReqNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C39A5F58FF9F96636AA8366C5488E403 /* CustomerMessageReqNotify.pbobjc.m */; };
+		E931708B2AFEDECC94A724E808CDF20A /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3315C1905B48BD2E5C46B7494214EC /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8129A067539E713EB88378597F1E49 /* DisconnectNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FD018FC5B001A3C5C0B88681016B8E /* DisconnectNotify.pbobjc.m */; };
+		EB003931A72AD7C0054B5FC3B58AE246 /* SakuraTypes+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F246347713F62D0C79AE15D1D73162 /* SakuraTypes+Helpers.m */; };
+		ED8378B63177DFB8E5C0D5ED58CB3DA2 /* ReceiveStateMessageNotify.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA0C8280E80F28604EB652F7FB9EEA /* ReceiveStateMessageNotify.pbobjc.m */; };
+		EE675897C970918AE38834E13E587DB4 /* Pods-pod_test_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E061AB1C0E8FE8F10908C48E9B9E3 /* Pods-pod_test_Tests-dummy.m */; };
+		EFEDD47D9741E0E13BC78F11BBF204D6 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A557245A6D1F8F25896FC115C1B95E3 /* GPBMessage.m */; };
+		F258D99BE39187780DDA36460CC5088B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F4598CD36208F2FE895BC36EBF633707 /* SystemMessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFBDFA40F84D9B32E0EDD24B8095B24 /* SystemMessage.pbobjc.m */; };
+		F4750E86EECD3B58C6EE83CF31A6655B /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2A5011210D12AC6D0F5151298A2339 /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E1CDA4D3582D672A2D4AD6243457AC /* SakuraTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B609CDF355314018409EF91FFCEE9DB /* SakuraTaskDelegate.m */; };
+		F682D294BBADC4461AA2496E4F446E60 /* SakuraLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C63BA81CD9B08F6D360FC7D10B0A15 /* SakuraLog.m */; };
+		F757CD983E242ECDF30C58D5E492543B /* TextMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2F7C12049580EDABE0933C93C4224 /* TextMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F48C1B8EFF4BA0346971BFCB207844 /* Pods-pod_test_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189863F87B080A723CFA55AAD5AB0623 /* Pods-pod_test_Example-dummy.m */; };
+		F8763C21D5E83F4DC5485430F96CB708 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B2749734105BFA5CCB2E2E1467854AFC /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C7FEB472CA17982FB82AE3DB3106AC /* SakuraFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A755CC3C3D9370D98F80CB6B8C47CD /* SakuraFormData.m */; };
+		FC5595B08D8FCD85E56FA3F5826F3265 /* FileMessage.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DDADF58519E3CDFAE8D96AE24C0E6B /* FileMessage.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7AE1B99887DF6CAF4F6EC5F5BA7A5B /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BEC37452F24A60C35FDCD12A80B9ED /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C219E9DC2EED4CE5B8D6106DD2E0B01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35033AADF157D14EA1A29D9275B88013;
+			remoteInfo = pod_test;
+		};
+		E1002A659DE795569364E51AC0E23529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8A83AEF9153EFFB63B6E94828F0EFB;
+			remoteInfo = "Pods-pod_test_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0099E64C79E0E125A263A5700CE48E52 /* SakuraApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraApi.m; sourceTree = "<group>"; };
+		00A2033DF79AC4F7D32448987EFCBD41 /* GPBUnknownField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBUnknownField.m; sourceTree = "<group>"; };
+		00AF4A613EC2E3A0C3716214A93147FD /* ChatMessageNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatMessageNotify.pbobjc.h; sourceTree = "<group>"; };
+		02246892C4BF9A3B8908D85F7A6E0544 /* RemindMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RemindMessage.pbobjc.m; sourceTree = "<group>"; };
+		035BE0CAEB9BABCD5B353F9C9EB98B63 /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
+		045C1202AE2EED3EE76A1CCF463F0ABA /* HeartbeatReqAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HeartbeatReqAck.pbobjc.m; sourceTree = "<group>"; };
+		048CC2FB6E341A745A9C3EF1749CF959 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04C2F7C12049580EDABE0933C93C4224 /* TextMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextMessage.pbobjc.h; sourceTree = "<group>"; };
+		05E8D57E8064BFCC209010B6D331D01C /* Pods-pod_test_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pod_test_Tests.modulemap"; sourceTree = "<group>"; };
+		08742EFC98A7DC97DF300FF9407C569B /* Any.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
+		08F246347713F62D0C79AE15D1D73162 /* SakuraTypes+Helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SakuraTypes+Helpers.m"; path = "pod_test/Classes/SakuraTypes+Helpers.m"; sourceTree = "<group>"; };
+		09CE98C4E4196F9D8971B5CC7543A576 /* SakuraMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraMessage.h; path = pod_test/Classes/SakuraMessage.h; sourceTree = "<group>"; };
+		0A557245A6D1F8F25896FC115C1B95E3 /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBMessage.m; sourceTree = "<group>"; };
+		0ACEE42A56CD12CA143B429444B5B2B5 /* BroadcastMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BroadcastMessage.pbobjc.m; sourceTree = "<group>"; };
+		0CDD2B8F4160627846B9DF866AF69CC4 /* SakuraIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraIO.h; sourceTree = "<group>"; };
+		0D4DB0027706BB092FD1BAB0F72C47F9 /* pod_test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pod_test.xcconfig; sourceTree = "<group>"; };
+		0FB50DF9573DCE141D864C944AB652A0 /* GroupMessageNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GroupMessageNotify.pbobjc.m; sourceTree = "<group>"; };
+		127046E3A901096DC87A0E27982F436F /* ReceiveStateMessageReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReceiveStateMessageReq.pbobjc.m; sourceTree = "<group>"; };
+		13325198AA2063B8BAA8034BFC39E688 /* GroupMessageReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GroupMessageReq.pbobjc.m; sourceTree = "<group>"; };
+		17087F08FE370C4101D470BE30C3AFE0 /* SakuraMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SakuraMessage.m; path = pod_test/Classes/SakuraMessage.m; sourceTree = "<group>"; };
+		1736E6B78E1C43B6E4D7613AEAE61EE4 /* RecallMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RecallMessage.pbobjc.h; sourceTree = "<group>"; };
+		189863F87B080A723CFA55AAD5AB0623 /* Pods-pod_test_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pod_test_Example-dummy.m"; sourceTree = "<group>"; };
+		18BEC37452F24A60C35FDCD12A80B9ED /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		1B356EB758A8438F815B0611854F27B5 /* Pods-pod_test_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pod_test_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1BC35D7382B3B38CF3167C123EAEEA7D /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		1C125C280CAC23182A6F0D7DB38D2D14 /* SessionStateMessageNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SessionStateMessageNotify.pbobjc.m; sourceTree = "<group>"; };
+		1D2C3E92F556A4E5888841295B5DA427 /* GroupMessageNotifyAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GroupMessageNotifyAck.pbobjc.h; sourceTree = "<group>"; };
+		1D6AD84F2D4FDA190382D858D27979C9 /* HeartbeatReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HeartbeatReq.pbobjc.m; sourceTree = "<group>"; };
+		1DA8D3CB875B33FB75983BA6C884710E /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		1DFBDFA40F84D9B32E0EDD24B8095B24 /* SystemMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SystemMessage.pbobjc.m; sourceTree = "<group>"; };
+		1E30AAADA33B270D72BB3E280306DF20 /* SessionStateMessageReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SessionStateMessageReq.pbobjc.h; sourceTree = "<group>"; };
+		1EA2D79D5C57F8DC92479D0E5C631D0B /* pod_test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pod_test-Info.plist"; sourceTree = "<group>"; };
+		1F88FC38ED413657FCDCC3615965F074 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		1FAE8FD84F3541E88FD274E3F024E7D0 /* GroupMessageReqAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GroupMessageReqAck.pbobjc.h; sourceTree = "<group>"; };
+		1FF5888DCA4122D2E1422F86271C8325 /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBBootstrap.h; sourceTree = "<group>"; };
+		227EF930EBAE075EBC42B56C559F3BB9 /* SakuraTypes+Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SakuraTypes+Helpers.h"; path = "pod_test/Classes/SakuraTypes+Helpers.h"; sourceTree = "<group>"; };
+		260F31040FB5227E7437FE50308A8DFC /* ChatMessageReqAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChatMessageReqAck.pbobjc.m; sourceTree = "<group>"; };
+		2622C1E0AF948B787D0CC656822C7A98 /* ChatMessageNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChatMessageNotify.pbobjc.m; sourceTree = "<group>"; };
+		2867BB7A9C80CDA2D9DE15EC2DCE2F55 /* CustomMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomMessage.pbobjc.h; sourceTree = "<group>"; };
+		2874BBA3B1001BFE0AE4A38EFABA6210 /* ChatMessageReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatMessageReq.pbobjc.h; sourceTree = "<group>"; };
+		2D1818AB3B77977203316744B60EB9F0 /* Duration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Duration.pbobjc.m; sourceTree = "<group>"; };
+		30C512DA9203F95050D108A83F4CE069 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		31AC0089A9F31EFE5B174C95F2B9D41F /* ShortVideoMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShortVideoMessage.pbobjc.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		327E02914DD0DE9A42F1B5E137859A40 /* ConnectReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConnectReq.pbobjc.m; sourceTree = "<group>"; };
+		33C63BA81CD9B08F6D360FC7D10B0A15 /* SakuraLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SakuraLog.m; path = pod_test/Classes/SakuraLog.m; sourceTree = "<group>"; };
+		37FD018FC5B001A3C5C0B88681016B8E /* DisconnectNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DisconnectNotify.pbobjc.m; sourceTree = "<group>"; };
+		38359406B1197EA3434C471A0446A2B9 /* SakuraDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraDelegate.h; path = pod_test/Classes/SakuraDelegate.h; sourceTree = "<group>"; };
+		3BC64C0AC138FB3660A3FADE96F30AA9 /* Pods-pod_test_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pod_test_Example-Info.plist"; sourceTree = "<group>"; };
+		3DD486D6FEE7F84700DE47EB07207A86 /* GroupMessageNotifyAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GroupMessageNotifyAck.pbobjc.m; sourceTree = "<group>"; };
+		414A8AB19B6420B2523132A5CDFAC994 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBArray.m; sourceTree = "<group>"; };
+		41908C8AA3F513C7C6B1A92DA66A0C06 /* SakuraLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraLogHelper.h; path = pod_test/Classes/SakuraLogHelper.h; sourceTree = "<group>"; };
+		4239B6670EE0C9BEA1CA4CD1C5AFE8C9 /* Protocol.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Protocol.pbobjc.m; sourceTree = "<group>"; };
+		42912FC8953CEFB4B566877F86B244F2 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		42AF62124523B0F8870C6E0C2B2B611E /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		45ECD8D27493F40AF0A2D4CAC5D4BB4D /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		464396D6B65331AB5E6C31944E85BFF4 /* DisconnectReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DisconnectReq.pbobjc.m; sourceTree = "<group>"; };
+		464AD0F7E69CA9BB55ABA89B9EB1567D /* BroadcastMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BroadcastMessage.pbobjc.h; sourceTree = "<group>"; };
+		488E9FC5B1C9D28297E5EDE9D3BF8A1C /* Pods-pod_test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pod_test_Example.release.xcconfig"; sourceTree = "<group>"; };
+		491ECC98D36BF10F13DE928A201D4D9A /* CustomerMessageReplyNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomerMessageReplyNotify.pbobjc.m; sourceTree = "<group>"; };
+		49B8CF358AFDFBF8CA3461424E8C1774 /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBExtensionInternals.h; sourceTree = "<group>"; };
+		4AF90A5B936700BD6748A66F897A9688 /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBRootObject.m; sourceTree = "<group>"; };
+		4B609CDF355314018409EF91FFCEE9DB /* SakuraTaskDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraTaskDelegate.m; sourceTree = "<group>"; };
+		4B74EBCF5B24918C8DBC836FA5EC1CA3 /* ProtocolType.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ProtocolType.pbobjc.m; sourceTree = "<group>"; };
+		4BC544FB5203DDF51EA97D677636B103 /* GPBDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBDictionary.m; sourceTree = "<group>"; };
+		4CBEBC2F00426B951DC03B05D228082F /* pod_test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pod_test-umbrella.h"; sourceTree = "<group>"; };
+		4DBBA1FE61AC99075F8D3E05F6B02EDE /* SakuraURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraURLRequestSerialization.m; sourceTree = "<group>"; };
+		4FE6E809E6927C5EDC237B49A726B1AE /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor.h; sourceTree = "<group>"; };
+		50DA22B3A06B06B0BE8610D15CDAB93E /* GroupMessageReqAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GroupMessageReqAck.pbobjc.m; sourceTree = "<group>"; };
+		518594DEA9AFDD4B963252ADA7C11F00 /* ConnectReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConnectReq.pbobjc.h; sourceTree = "<group>"; };
+		519B9D6323A171E72D9186441B95DF61 /* ConnectReqAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConnectReqAck.pbobjc.h; sourceTree = "<group>"; };
+		522A64F44D914AD49BD2113A5B25BA75 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		54AC87B964A48454D183B0C0A537A784 /* GroupMessageNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GroupMessageNotify.pbobjc.h; sourceTree = "<group>"; };
+		54E9BB3CDB16EE65B36163FB6E08B005 /* Api.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		56A744CA61EF2E149F273EC72F41FCDD /* ImageMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageMessage.pbobjc.m; sourceTree = "<group>"; };
+		5891FE10EACBE3CA664AEC9A067FD92D /* pod_test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pod_test.modulemap; sourceTree = "<group>"; };
+		58C1B56DE71D151C961E1411E22310F0 /* SakuraReconnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraReconnect.h; sourceTree = "<group>"; };
+		59186D8EDA33CE5751BBF80D98DE6361 /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBUtilities.m; sourceTree = "<group>"; };
+		5A99D987AC025E66E4B7153F1780DCCC /* Pods-pod_test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pod_test_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0F7AF954111B6C62CEAB1BF3CBD6DA /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		5DB8D0AD4414734B254BFFA9FA86A5EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5EE10A48586310B47B7B68C20496BF46 /* Pods-pod_test_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pod_test_Example.modulemap"; sourceTree = "<group>"; };
+		5EFDB162B495499716413ECDD76E8514 /* MessageBody.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageBody.pbobjc.h; sourceTree = "<group>"; };
+		5F3315C1905B48BD2E5C46B7494214EC /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		5FC1D5AC0B9008C7A818FABCD5D1F5FF /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream.h; sourceTree = "<group>"; };
+		603A7C8A1696A8819F493DE54495433D /* CustomerMessageReplyNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomerMessageReplyNotify.pbobjc.h; sourceTree = "<group>"; };
+		612835FF31545224B8F283AA40EADB76 /* VoiceMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VoiceMessage.pbobjc.m; sourceTree = "<group>"; };
+		613E786D63EE5634308BBC09323C6252 /* HeartbeatReqAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HeartbeatReqAck.pbobjc.h; sourceTree = "<group>"; };
+		6222D9739B8D7218A574DD8F1F5C060D /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		6283284F91A371A949307812AD353505 /* ImageMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageMessage.pbobjc.h; sourceTree = "<group>"; };
+		62998F23622B0C47FB12FD604CE15645 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		65C78816181B18003259FF7C0EAA2BBE /* ChatMessageReqAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatMessageReqAck.pbobjc.h; sourceTree = "<group>"; };
+		667089D47776BBEDC2A208669056EA40 /* CustomerMessageReply.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomerMessageReply.pbobjc.h; sourceTree = "<group>"; };
+		66EBFF0ECDBFD891A266DDF3A7844DAD /* MessageBody.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageBody.pbobjc.m; sourceTree = "<group>"; };
+		687069B779F46F14895D8D956FA55C4A /* RecallMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RecallMessage.pbobjc.m; sourceTree = "<group>"; };
+		68C5E73E550D33744A338DD93402C788 /* SakuraLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraLog.h; path = pod_test/Classes/SakuraLog.h; sourceTree = "<group>"; };
+		693567B3BEF454A36B34C99E269AD5AC /* CustomerMessageReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomerMessageReq.pbobjc.m; sourceTree = "<group>"; };
+		6A77744B4E37480F7D0C98FEA477D416 /* ReceiveStateMessageNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReceiveStateMessageNotify.pbobjc.h; sourceTree = "<group>"; };
+		6A8102033EFEF3ACD8D8A1C696527088 /* VoiceMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VoiceMessage.pbobjc.h; sourceTree = "<group>"; };
+		6A8DD2F77A26848900A48976CF1FCC8B /* MessageType.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageType.pbobjc.h; sourceTree = "<group>"; };
+		6B6298B9D542D3D5D08FC44354CE1F84 /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		6BCB38BEE5D7B9E98343B50D18CFE652 /* SakuraTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraTypes.h; path = pod_test/Classes/SakuraTypes.h; sourceTree = "<group>"; };
+		6C3A66EB121F40AA131AE94AC9D66CCC /* RemindMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RemindMessage.pbobjc.h; sourceTree = "<group>"; };
+		70A939FE15C718C91EE23FA8B0A6A127 /* ConnectReqAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConnectReqAck.pbobjc.m; sourceTree = "<group>"; };
+		74E91B973A5B1C0BE325032FC5BCDCF4 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField.h; sourceTree = "<group>"; };
+		754260652D51C27BF00825A4FC71F877 /* Empty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.pbobjc.m; sourceTree = "<group>"; };
+		7704FE24ADDBEAF70A27567B347E9347 /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBArray.h; sourceTree = "<group>"; };
+		778C32D59052783E3EAE512D9D71E336 /* Pods-pod_test_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pod_test_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78DC6567DE9F77B102366CB19C24A789 /* Pods-pod_test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pod_test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		793A3789B0A480EB911C398A0F69AB81 /* SystemMessageNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SystemMessageNotify.pbobjc.m; sourceTree = "<group>"; };
+		79DDADF58519E3CDFAE8D96AE24C0E6B /* FileMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FileMessage.pbobjc.h; sourceTree = "<group>"; };
+		7BBCB4DAE66489DAAE69FCDA61483C8F /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBExtensionInternals.m; sourceTree = "<group>"; };
+		7E7D4E666DD60654E0A3BBA151CCFDAA /* CustomerMessageReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomerMessageReq.pbobjc.h; sourceTree = "<group>"; };
+		8023C3CDF3F4F6E4A81277F4A0756C29 /* SakuraLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SakuraLogHelper.m; path = pod_test/Classes/SakuraLogHelper.m; sourceTree = "<group>"; };
+		80DA65D449AA8E5430A10468B636728A /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		81551253B27EB39E8A1E12B5D6DCE56F /* ReceiveStateMessageReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReceiveStateMessageReq.pbobjc.h; sourceTree = "<group>"; };
+		85A079D26367702773EDCAAA66F7222F /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		8672610725C7FF37CEED65CBFD7A39AD /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		86A59CA1E029C65F4F78AC8DA28F6725 /* Pods-pod_test_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pod_test_Example-umbrella.h"; sourceTree = "<group>"; };
+		86DB15C8A67164CE3082B0B09369E0B7 /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBMessage.h; sourceTree = "<group>"; };
+		878548BECCEC12A978F8C4EBCAA6B537 /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBRootObject.h; sourceTree = "<group>"; };
+		8A152C3EAB6B1748B3CA5A31E7BC2DCF /* SakuraReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraReachability.m; sourceTree = "<group>"; };
+		8B0DF1F5D51E429CED8C09FD224ED78E /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		8CFED8D5B6DA9276B4DEFCEC93A23E04 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		8D24D9BD0B5474B5C193B31981A1F526 /* pod_test.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = pod_test.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		8F88CC9024809EEF7E54BBD55AD829EF /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBDictionary.h; sourceTree = "<group>"; };
+		904F8BE780A38DBF537F6E1A23ED5CC1 /* ProtocolType.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProtocolType.pbobjc.h; sourceTree = "<group>"; };
+		917C69667841F323B4B49221AA324578 /* VideoMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoMessage.pbobjc.h; sourceTree = "<group>"; };
+		954297873DF1E2B90D660A84ED3A79A5 /* ShortVideoMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShortVideoMessage.pbobjc.m; sourceTree = "<group>"; };
+		95B7AD1E7B07E0DE69769C7B417CA498 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBCodedInputStream.m; sourceTree = "<group>"; };
+		989A81749DB4A11D5F54D8D7FDBCA331 /* TextMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TextMessage.pbobjc.m; sourceTree = "<group>"; };
+		99910ABA66D0B59E59D1412C4075212D /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		9ADA0C8280E80F28604EB652F7FB9EEA /* ReceiveStateMessageNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReceiveStateMessageNotify.pbobjc.m; sourceTree = "<group>"; };
+		9B883894A439C6FA70C7033D780F7CAD /* SakuraFormData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraFormData.h; sourceTree = "<group>"; };
+		9C71EE4BEEE40BAC790373E3B95E3CDB /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBWireFormat.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07E69546517F2E81761FB878F76C568 /* CustomMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomMessage.pbobjc.m; sourceTree = "<group>"; };
+		A148637500A4745F02DB1992C7BC3C24 /* MessageType.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MessageType.pbobjc.m; sourceTree = "<group>"; };
+		A268FB08F2B40E3F39E0905DBF94780A /* DisconnectReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DisconnectReq.pbobjc.h; sourceTree = "<group>"; };
+		A5D90A746CAF75DDEB8F5A7A4566AC7C /* SakuraConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraConfig.h; sourceTree = "<group>"; };
+		A9045DFDAC25C8E704F4FBA6E5B5488E /* SakuraKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SakuraKit.h; path = pod_test/Classes/SakuraKit.h; sourceTree = "<group>"; };
+		A9BE155EF94D8193160D74BA158983D2 /* SystemMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemMessage.pbobjc.h; sourceTree = "<group>"; };
+		AACD9F102D434F229DC14C746E73CCE9 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		AE4B93DDC06F151CE9C4CF60C11880FC /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		AFA7D9124D6AAEB82A39B697B551FD1C /* pod_test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pod_test-dummy.m"; sourceTree = "<group>"; };
+		B200AF39470F571BAE9C99B80C4C6178 /* GroupMessageReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GroupMessageReq.pbobjc.h; sourceTree = "<group>"; };
+		B2749734105BFA5CCB2E2E1467854AFC /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		B53FCFAE4B2DA7AAED49AB5FD2A7A019 /* Protocol.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Protocol.pbobjc.h; sourceTree = "<group>"; };
+		B90CFF77552F2B2BB022EA157459DF22 /* ChatMessageReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChatMessageReq.pbobjc.m; sourceTree = "<group>"; };
+		BBEE91F778A91C92CE2FF38C5BB210CE /* pod_test-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pod_test-prefix.pch"; sourceTree = "<group>"; };
+		BC1277086A32C86F2F3CA267A7DB2864 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		BFD8A40D7C23C6A85B086E85A49CFCCE /* SakuraIO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraIO.m; sourceTree = "<group>"; };
+		C22022EEFA49AD7248BBDE22114EB49F /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		C2AF0C15C5C50947482C2C46DF5AB241 /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		C39A5F58FF9F96636AA8366C5488E403 /* CustomerMessageReqNotify.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomerMessageReqNotify.pbobjc.m; sourceTree = "<group>"; };
+		C75BA912833AABE19E7804223BA19E67 /* Pods-pod_test_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pod_test_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7E541D40B59FC2E422BFC6A506308EC /* SessionStateMessageNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SessionStateMessageNotify.pbobjc.h; sourceTree = "<group>"; };
+		C8418DF257294ABB7ACFD26549510834 /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Timestamp.pbobjc.m; sourceTree = "<group>"; };
+		C85F0C3E1B1EBDC38AB004EF25E403C5 /* Pods-pod_test_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pod_test_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C87140A6438F1D95069E8B13D68B7727 /* FileMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FileMessage.pbobjc.m; sourceTree = "<group>"; };
+		C8A755CC3C3D9370D98F80CB6B8C47CD /* SakuraFormData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraFormData.m; sourceTree = "<group>"; };
+		CB1CEBB1669744882E75FAA23C35F8A4 /* Pods-pod_test_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pod_test_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB43BC22F594B7F0BA5D78669B69812 /* HeartbeatReq.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HeartbeatReq.pbobjc.h; sourceTree = "<group>"; };
+		CC86A55819F8E9D8257B31FE188384F8 /* CustomerMessageReqNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomerMessageReqNotify.pbobjc.h; sourceTree = "<group>"; };
+		CFD7AA16C5D981E9FCB7DECD7EF28630 /* SakuraHttpUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraHttpUtils.m; sourceTree = "<group>"; };
+		D54486B5685AA33A84D3609FDC1A75B8 /* SakuraReconnect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraReconnect.m; sourceTree = "<group>"; };
+		D59B14312463EF8B6191C05CEEF05D08 /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		D5A085E76CA6554A02A7968ED49453B0 /* Pods-pod_test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pod_test_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5F876AB5BD1D3FA345C7F4F87133BF4 /* pod_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pod_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74E061AB1C0E8FE8F10908C48E9B9E3 /* Pods-pod_test_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pod_test_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8F69249942AD44231D874A57B76C39D /* CustomerMessageReply.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomerMessageReply.pbobjc.m; sourceTree = "<group>"; };
+		D94F15523B74DAC70580D68C87F64415 /* Pods-pod_test_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pod_test_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9ABF0221665CD2C114831140C1FF1EA /* Pods_pod_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pod_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB95831C479D01870875BFB000B5F87B /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBDescriptor.m; sourceTree = "<group>"; };
+		DF17C07984573A7AB387EEABDC6A3F1B /* SakuraApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraApi.h; sourceTree = "<group>"; };
+		E022C1944D3A5946F134E38506FC109D /* SakuraReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraReachability.h; sourceTree = "<group>"; };
+		E1B48887CFBE47065DC68AD53BC49B5C /* SessionStateMessageReq.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SessionStateMessageReq.pbobjc.m; sourceTree = "<group>"; };
+		E2BB7C1477903A37294A7238A540D9CD /* VideoMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VideoMessage.pbobjc.m; sourceTree = "<group>"; };
+		E418ED8BBFE38FCDDFD5A0E8BBBCBB8C /* Pods_pod_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pod_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F0EC631403F3AFA9C7BF69CA26DAF3 /* DisconnectNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DisconnectNotify.pbobjc.h; sourceTree = "<group>"; };
+		EA14DB326033AD5E4BD8252F52964DD1 /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBUtilities.h; sourceTree = "<group>"; };
+		EA6FAF640AA5F706DECDAB203B59EF54 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		EACBFBEED0962C9ADA2A119E18FFFF5B /* NewsMessage.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NewsMessage.pbobjc.h; sourceTree = "<group>"; };
+		EBF40637935FA4EEA005FDFFB2DBA0E2 /* SakuraHttpUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraHttpUtils.h; sourceTree = "<group>"; };
+		ECEBAC10E3AFBF5F7427ADB4714FDBC6 /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		ED1A7F01C8E897E8D2EF627A195B6AFA /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		EF24E631F2989D8D21FC89BEF0CC66A3 /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		EFDA2A8C2F9D0078CC9677EC200A4328 /* SystemMessageNotify.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemMessageNotify.pbobjc.h; sourceTree = "<group>"; };
+		F28F1F3E8440FB30B8C7E82CD21C7061 /* SakuraURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraURLRequestSerialization.h; sourceTree = "<group>"; };
+		F4E662C08FE70C3943F5C7F9EEC71F03 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		F7086FE2228CF9E621AF1DA8EBEC087B /* SakuraTaskDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SakuraTaskDelegate.h; sourceTree = "<group>"; };
+		F8AB684C35FCAC9A44CC3E2A0BAFD448 /* Pods-pod_test_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pod_test_Tests-Info.plist"; sourceTree = "<group>"; };
+		FA5FE6096BC1B608E011E969316C81BE /* ChatMessageNotifyAck.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChatMessageNotifyAck.pbobjc.h; sourceTree = "<group>"; };
+		FA8FF8DF3AB31E4F82756A2BD19408B5 /* SakuraConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SakuraConfig.m; sourceTree = "<group>"; };
+		FAF7A390D5271D5CEF41269D37D66283 /* ChatMessageNotifyAck.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChatMessageNotifyAck.pbobjc.m; sourceTree = "<group>"; };
+		FB248EC2796592DB8CC541D92AFB5BD4 /* Struct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Struct.pbobjc.m; sourceTree = "<group>"; };
+		FB2A5011210D12AC6D0F5151298A2339 /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		FB61F1CBDE59405DE9C7F767E0B47E39 /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBWireFormat.h; sourceTree = "<group>"; };
+		FC514A099FB5CF244E59C196EB94CEA6 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		FD965D204B2F2D616783D548DABD4D5E /* NewsMessage.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NewsMessage.pbobjc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DDAD64FAF884F53807629434BBAE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118C6A5AF7D045A1B0A1162D48305EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E78AAB6585B90EE038318407B86D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD5BCAD73CACF7541F12AC6AF029EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1327B3F41896468592CA4D476984986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F258D99BE39187780DDA36460CC5088B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007CCB40A835DD95870C7FF2A0FBB47D /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				464AD0F7E69CA9BB55ABA89B9EB1567D /* BroadcastMessage.pbobjc.h */,
+				0ACEE42A56CD12CA143B429444B5B2B5 /* BroadcastMessage.pbobjc.m */,
+				00AF4A613EC2E3A0C3716214A93147FD /* ChatMessageNotify.pbobjc.h */,
+				2622C1E0AF948B787D0CC656822C7A98 /* ChatMessageNotify.pbobjc.m */,
+				FA5FE6096BC1B608E011E969316C81BE /* ChatMessageNotifyAck.pbobjc.h */,
+				FAF7A390D5271D5CEF41269D37D66283 /* ChatMessageNotifyAck.pbobjc.m */,
+				2874BBA3B1001BFE0AE4A38EFABA6210 /* ChatMessageReq.pbobjc.h */,
+				B90CFF77552F2B2BB022EA157459DF22 /* ChatMessageReq.pbobjc.m */,
+				65C78816181B18003259FF7C0EAA2BBE /* ChatMessageReqAck.pbobjc.h */,
+				260F31040FB5227E7437FE50308A8DFC /* ChatMessageReqAck.pbobjc.m */,
+				518594DEA9AFDD4B963252ADA7C11F00 /* ConnectReq.pbobjc.h */,
+				327E02914DD0DE9A42F1B5E137859A40 /* ConnectReq.pbobjc.m */,
+				519B9D6323A171E72D9186441B95DF61 /* ConnectReqAck.pbobjc.h */,
+				70A939FE15C718C91EE23FA8B0A6A127 /* ConnectReqAck.pbobjc.m */,
+				667089D47776BBEDC2A208669056EA40 /* CustomerMessageReply.pbobjc.h */,
+				D8F69249942AD44231D874A57B76C39D /* CustomerMessageReply.pbobjc.m */,
+				603A7C8A1696A8819F493DE54495433D /* CustomerMessageReplyNotify.pbobjc.h */,
+				491ECC98D36BF10F13DE928A201D4D9A /* CustomerMessageReplyNotify.pbobjc.m */,
+				7E7D4E666DD60654E0A3BBA151CCFDAA /* CustomerMessageReq.pbobjc.h */,
+				693567B3BEF454A36B34C99E269AD5AC /* CustomerMessageReq.pbobjc.m */,
+				CC86A55819F8E9D8257B31FE188384F8 /* CustomerMessageReqNotify.pbobjc.h */,
+				C39A5F58FF9F96636AA8366C5488E403 /* CustomerMessageReqNotify.pbobjc.m */,
+				2867BB7A9C80CDA2D9DE15EC2DCE2F55 /* CustomMessage.pbobjc.h */,
+				A07E69546517F2E81761FB878F76C568 /* CustomMessage.pbobjc.m */,
+				E5F0EC631403F3AFA9C7BF69CA26DAF3 /* DisconnectNotify.pbobjc.h */,
+				37FD018FC5B001A3C5C0B88681016B8E /* DisconnectNotify.pbobjc.m */,
+				A268FB08F2B40E3F39E0905DBF94780A /* DisconnectReq.pbobjc.h */,
+				464396D6B65331AB5E6C31944E85BFF4 /* DisconnectReq.pbobjc.m */,
+				79DDADF58519E3CDFAE8D96AE24C0E6B /* FileMessage.pbobjc.h */,
+				C87140A6438F1D95069E8B13D68B7727 /* FileMessage.pbobjc.m */,
+				54AC87B964A48454D183B0C0A537A784 /* GroupMessageNotify.pbobjc.h */,
+				0FB50DF9573DCE141D864C944AB652A0 /* GroupMessageNotify.pbobjc.m */,
+				1D2C3E92F556A4E5888841295B5DA427 /* GroupMessageNotifyAck.pbobjc.h */,
+				3DD486D6FEE7F84700DE47EB07207A86 /* GroupMessageNotifyAck.pbobjc.m */,
+				B200AF39470F571BAE9C99B80C4C6178 /* GroupMessageReq.pbobjc.h */,
+				13325198AA2063B8BAA8034BFC39E688 /* GroupMessageReq.pbobjc.m */,
+				1FAE8FD84F3541E88FD274E3F024E7D0 /* GroupMessageReqAck.pbobjc.h */,
+				50DA22B3A06B06B0BE8610D15CDAB93E /* GroupMessageReqAck.pbobjc.m */,
+				CBB43BC22F594B7F0BA5D78669B69812 /* HeartbeatReq.pbobjc.h */,
+				1D6AD84F2D4FDA190382D858D27979C9 /* HeartbeatReq.pbobjc.m */,
+				613E786D63EE5634308BBC09323C6252 /* HeartbeatReqAck.pbobjc.h */,
+				045C1202AE2EED3EE76A1CCF463F0ABA /* HeartbeatReqAck.pbobjc.m */,
+				6283284F91A371A949307812AD353505 /* ImageMessage.pbobjc.h */,
+				56A744CA61EF2E149F273EC72F41FCDD /* ImageMessage.pbobjc.m */,
+				5EFDB162B495499716413ECDD76E8514 /* MessageBody.pbobjc.h */,
+				66EBFF0ECDBFD891A266DDF3A7844DAD /* MessageBody.pbobjc.m */,
+				6A8DD2F77A26848900A48976CF1FCC8B /* MessageType.pbobjc.h */,
+				A148637500A4745F02DB1992C7BC3C24 /* MessageType.pbobjc.m */,
+				EACBFBEED0962C9ADA2A119E18FFFF5B /* NewsMessage.pbobjc.h */,
+				FD965D204B2F2D616783D548DABD4D5E /* NewsMessage.pbobjc.m */,
+				B53FCFAE4B2DA7AAED49AB5FD2A7A019 /* Protocol.pbobjc.h */,
+				4239B6670EE0C9BEA1CA4CD1C5AFE8C9 /* Protocol.pbobjc.m */,
+				904F8BE780A38DBF537F6E1A23ED5CC1 /* ProtocolType.pbobjc.h */,
+				4B74EBCF5B24918C8DBC836FA5EC1CA3 /* ProtocolType.pbobjc.m */,
+				1736E6B78E1C43B6E4D7613AEAE61EE4 /* RecallMessage.pbobjc.h */,
+				687069B779F46F14895D8D956FA55C4A /* RecallMessage.pbobjc.m */,
+				6A77744B4E37480F7D0C98FEA477D416 /* ReceiveStateMessageNotify.pbobjc.h */,
+				9ADA0C8280E80F28604EB652F7FB9EEA /* ReceiveStateMessageNotify.pbobjc.m */,
+				81551253B27EB39E8A1E12B5D6DCE56F /* ReceiveStateMessageReq.pbobjc.h */,
+				127046E3A901096DC87A0E27982F436F /* ReceiveStateMessageReq.pbobjc.m */,
+				6C3A66EB121F40AA131AE94AC9D66CCC /* RemindMessage.pbobjc.h */,
+				02246892C4BF9A3B8908D85F7A6E0544 /* RemindMessage.pbobjc.m */,
+				C7E541D40B59FC2E422BFC6A506308EC /* SessionStateMessageNotify.pbobjc.h */,
+				1C125C280CAC23182A6F0D7DB38D2D14 /* SessionStateMessageNotify.pbobjc.m */,
+				1E30AAADA33B270D72BB3E280306DF20 /* SessionStateMessageReq.pbobjc.h */,
+				E1B48887CFBE47065DC68AD53BC49B5C /* SessionStateMessageReq.pbobjc.m */,
+				31AC0089A9F31EFE5B174C95F2B9D41F /* ShortVideoMessage.pbobjc.h */,
+				954297873DF1E2B90D660A84ED3A79A5 /* ShortVideoMessage.pbobjc.m */,
+				A9BE155EF94D8193160D74BA158983D2 /* SystemMessage.pbobjc.h */,
+				1DFBDFA40F84D9B32E0EDD24B8095B24 /* SystemMessage.pbobjc.m */,
+				EFDA2A8C2F9D0078CC9677EC200A4328 /* SystemMessageNotify.pbobjc.h */,
+				793A3789B0A480EB911C398A0F69AB81 /* SystemMessageNotify.pbobjc.m */,
+				04C2F7C12049580EDABE0933C93C4224 /* TextMessage.pbobjc.h */,
+				989A81749DB4A11D5F54D8D7FDBCA331 /* TextMessage.pbobjc.m */,
+				917C69667841F323B4B49221AA324578 /* VideoMessage.pbobjc.h */,
+				E2BB7C1477903A37294A7238A540D9CD /* VideoMessage.pbobjc.m */,
+				6A8102033EFEF3ACD8D8A1C696527088 /* VoiceMessage.pbobjc.h */,
+				612835FF31545224B8F283AA40EADB76 /* VoiceMessage.pbobjc.m */,
+			);
+			name = Protobuf;
+			path = pod_test/Classes/Protobuf;
+			sourceTree = "<group>";
+		};
+		0C5614A5521758D63EBB788613B45D89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5DB8D0AD4414734B254BFFA9FA86A5EF /* LICENSE */,
+				8D24D9BD0B5474B5C193B31981A1F526 /* pod_test.podspec */,
+				048CC2FB6E341A745A9C3EF1749CF959 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1CFCCF952287876F73F5A74F1DD521C5 /* GPB */ = {
+			isa = PBXGroup;
+			children = (
+				7704FE24ADDBEAF70A27567B347E9347 /* GPBArray.h */,
+				414A8AB19B6420B2523132A5CDFAC994 /* GPBArray.m */,
+				5C0F7AF954111B6C62CEAB1BF3CBD6DA /* GPBArray_PackagePrivate.h */,
+				1FF5888DCA4122D2E1422F86271C8325 /* GPBBootstrap.h */,
+				5FC1D5AC0B9008C7A818FABCD5D1F5FF /* GPBCodedInputStream.h */,
+				95B7AD1E7B07E0DE69769C7B417CA498 /* GPBCodedInputStream.m */,
+				C22022EEFA49AD7248BBDE22114EB49F /* GPBCodedInputStream_PackagePrivate.h */,
+				6222D9739B8D7218A574DD8F1F5C060D /* GPBCodedOutputStream.h */,
+				D59B14312463EF8B6191C05CEEF05D08 /* GPBCodedOutputStream.m */,
+				80DA65D449AA8E5430A10468B636728A /* GPBCodedOutputStream_PackagePrivate.h */,
+				4FE6E809E6927C5EDC237B49A726B1AE /* GPBDescriptor.h */,
+				DB95831C479D01870875BFB000B5F87B /* GPBDescriptor.m */,
+				F4E662C08FE70C3943F5C7F9EEC71F03 /* GPBDescriptor_PackagePrivate.h */,
+				8F88CC9024809EEF7E54BBD55AD829EF /* GPBDictionary.h */,
+				4BC544FB5203DDF51EA97D677636B103 /* GPBDictionary.m */,
+				45ECD8D27493F40AF0A2D4CAC5D4BB4D /* GPBDictionary_PackagePrivate.h */,
+				49B8CF358AFDFBF8CA3461424E8C1774 /* GPBExtensionInternals.h */,
+				7BBCB4DAE66489DAAE69FCDA61483C8F /* GPBExtensionInternals.m */,
+				8672610725C7FF37CEED65CBFD7A39AD /* GPBExtensionRegistry.h */,
+				ECEBAC10E3AFBF5F7427ADB4714FDBC6 /* GPBExtensionRegistry.m */,
+				86DB15C8A67164CE3082B0B09369E0B7 /* GPBMessage.h */,
+				0A557245A6D1F8F25896FC115C1B95E3 /* GPBMessage.m */,
+				99910ABA66D0B59E59D1412C4075212D /* GPBMessage_PackagePrivate.h */,
+				AACD9F102D434F229DC14C746E73CCE9 /* GPBProtocolBuffers.h */,
+				8CFED8D5B6DA9276B4DEFCEC93A23E04 /* GPBProtocolBuffers_RuntimeSupport.h */,
+				878548BECCEC12A978F8C4EBCAA6B537 /* GPBRootObject.h */,
+				4AF90A5B936700BD6748A66F897A9688 /* GPBRootObject.m */,
+				FC514A099FB5CF244E59C196EB94CEA6 /* GPBRootObject_PackagePrivate.h */,
+				ED1A7F01C8E897E8D2EF627A195B6AFA /* GPBRuntimeTypes.h */,
+				74E91B973A5B1C0BE325032FC5BCDCF4 /* GPBUnknownField.h */,
+				00A2033DF79AC4F7D32448987EFCBD41 /* GPBUnknownField.m */,
+				B2749734105BFA5CCB2E2E1467854AFC /* GPBUnknownField_PackagePrivate.h */,
+				1BC35D7382B3B38CF3167C123EAEEA7D /* GPBUnknownFieldSet.h */,
+				6B6298B9D542D3D5D08FC44354CE1F84 /* GPBUnknownFieldSet.m */,
+				5F3315C1905B48BD2E5C46B7494214EC /* GPBUnknownFieldSet_PackagePrivate.h */,
+				EA14DB326033AD5E4BD8252F52964DD1 /* GPBUtilities.h */,
+				59186D8EDA33CE5751BBF80D98DE6361 /* GPBUtilities.m */,
+				18BEC37452F24A60C35FDCD12A80B9ED /* GPBUtilities_PackagePrivate.h */,
+				1DA8D3CB875B33FB75983BA6C884710E /* GPBWellKnownTypes.h */,
+				EA6FAF640AA5F706DECDAB203B59EF54 /* GPBWellKnownTypes.m */,
+				FB61F1CBDE59405DE9C7F767E0B47E39 /* GPBWireFormat.h */,
+				9C71EE4BEEE40BAC790373E3B95E3CDB /* GPBWireFormat.m */,
+				5CC850BAF7BA732F60270247A8A365E5 /* google */,
+			);
+			name = GPB;
+			path = pod_test/Classes/GPB;
+			sourceTree = "<group>";
+		};
+		1D504C6489BF99F3D7B17908A03782C6 /* Pods-pod_test_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05E8D57E8064BFCC209010B6D331D01C /* Pods-pod_test_Tests.modulemap */,
+				778C32D59052783E3EAE512D9D71E336 /* Pods-pod_test_Tests-acknowledgements.markdown */,
+				C75BA912833AABE19E7804223BA19E67 /* Pods-pod_test_Tests-acknowledgements.plist */,
+				D74E061AB1C0E8FE8F10908C48E9B9E3 /* Pods-pod_test_Tests-dummy.m */,
+				F8AB684C35FCAC9A44CC3E2A0BAFD448 /* Pods-pod_test_Tests-Info.plist */,
+				C85F0C3E1B1EBDC38AB004EF25E403C5 /* Pods-pod_test_Tests-umbrella.h */,
+				78DC6567DE9F77B102366CB19C24A789 /* Pods-pod_test_Tests.debug.xcconfig */,
+				D5A085E76CA6554A02A7968ED49453B0 /* Pods-pod_test_Tests.release.xcconfig */,
+			);
+			name = "Pods-pod_test_Tests";
+			path = "Target Support Files/Pods-pod_test_Tests";
+			sourceTree = "<group>";
+		};
+		30EDE2FEDB195D8B5C9F7ED4E47678C8 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				85A079D26367702773EDCAAA66F7222F /* Any.pbobjc.h */,
+				08742EFC98A7DC97DF300FF9407C569B /* Any.pbobjc.m */,
+				1F88FC38ED413657FCDCC3615965F074 /* Api.pbobjc.h */,
+				54E9BB3CDB16EE65B36163FB6E08B005 /* Api.pbobjc.m */,
+				8B0DF1F5D51E429CED8C09FD224ED78E /* Duration.pbobjc.h */,
+				2D1818AB3B77977203316744B60EB9F0 /* Duration.pbobjc.m */,
+				62998F23622B0C47FB12FD604CE15645 /* Empty.pbobjc.h */,
+				754260652D51C27BF00825A4FC71F877 /* Empty.pbobjc.m */,
+				522A64F44D914AD49BD2113A5B25BA75 /* FieldMask.pbobjc.h */,
+				AE4B93DDC06F151CE9C4CF60C11880FC /* FieldMask.pbobjc.m */,
+				FB2A5011210D12AC6D0F5151298A2339 /* SourceContext.pbobjc.h */,
+				C2AF0C15C5C50947482C2C46DF5AB241 /* SourceContext.pbobjc.m */,
+				EF24E631F2989D8D21FC89BEF0CC66A3 /* Struct.pbobjc.h */,
+				FB248EC2796592DB8CC541D92AFB5BD4 /* Struct.pbobjc.m */,
+				42912FC8953CEFB4B566877F86B244F2 /* Timestamp.pbobjc.h */,
+				C8418DF257294ABB7ACFD26549510834 /* Timestamp.pbobjc.m */,
+				30C512DA9203F95050D108A83F4CE069 /* Type.pbobjc.h */,
+				035BE0CAEB9BABCD5B353F9C9EB98B63 /* Type.pbobjc.m */,
+				42AF62124523B0F8870C6E0C2B2B611E /* Wrappers.pbobjc.h */,
+				BC1277086A32C86F2F3CA267A7DB2864 /* Wrappers.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		32548003E276231DB594275DE50BBE41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5891FE10EACBE3CA664AEC9A067FD92D /* pod_test.modulemap */,
+				0D4DB0027706BB092FD1BAB0F72C47F9 /* pod_test.xcconfig */,
+				AFA7D9124D6AAEB82A39B697B551FD1C /* pod_test-dummy.m */,
+				1EA2D79D5C57F8DC92479D0E5C631D0B /* pod_test-Info.plist */,
+				BBEE91F778A91C92CE2FF38C5BB210CE /* pod_test-prefix.pch */,
+				4CBEBC2F00426B951DC03B05D228082F /* pod_test-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/pod_test";
+			sourceTree = "<group>";
+		};
+		32C2A663B227B4557FCD48FD5897EA7D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF17C07984573A7AB387EEABDC6A3F1B /* SakuraApi.h */,
+				0099E64C79E0E125A263A5700CE48E52 /* SakuraApi.m */,
+				9B883894A439C6FA70C7033D780F7CAD /* SakuraFormData.h */,
+				C8A755CC3C3D9370D98F80CB6B8C47CD /* SakuraFormData.m */,
+				EBF40637935FA4EEA005FDFFB2DBA0E2 /* SakuraHttpUtils.h */,
+				CFD7AA16C5D981E9FCB7DECD7EF28630 /* SakuraHttpUtils.m */,
+				F7086FE2228CF9E621AF1DA8EBEC087B /* SakuraTaskDelegate.h */,
+				4B609CDF355314018409EF91FFCEE9DB /* SakuraTaskDelegate.m */,
+				F28F1F3E8440FB30B8C7E82CD21C7061 /* SakuraURLRequestSerialization.h */,
+				4DBBA1FE61AC99075F8D3E05F6B02EDE /* SakuraURLRequestSerialization.m */,
+			);
+			name = Network;
+			path = pod_test/Classes/Network;
+			sourceTree = "<group>";
+		};
+		3525F61F17ECD7C1022C46E00C93DC71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41EC035E8405A67861B0F15736C8EB3 /* pod_test */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3D280B3FF671D93539439D4E9F581593 /* Pods-pod_test_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5EE10A48586310B47B7B68C20496BF46 /* Pods-pod_test_Example.modulemap */,
+				CB1CEBB1669744882E75FAA23C35F8A4 /* Pods-pod_test_Example-acknowledgements.markdown */,
+				D94F15523B74DAC70580D68C87F64415 /* Pods-pod_test_Example-acknowledgements.plist */,
+				189863F87B080A723CFA55AAD5AB0623 /* Pods-pod_test_Example-dummy.m */,
+				1B356EB758A8438F815B0611854F27B5 /* Pods-pod_test_Example-frameworks.sh */,
+				3BC64C0AC138FB3660A3FADE96F30AA9 /* Pods-pod_test_Example-Info.plist */,
+				86A59CA1E029C65F4F78AC8DA28F6725 /* Pods-pod_test_Example-umbrella.h */,
+				5A99D987AC025E66E4B7153F1780DCCC /* Pods-pod_test_Example.debug.xcconfig */,
+				488E9FC5B1C9D28297E5EDE9D3BF8A1C /* Pods-pod_test_Example.release.xcconfig */,
+			);
+			name = "Pods-pod_test_Example";
+			path = "Target Support Files/Pods-pod_test_Example";
+			sourceTree = "<group>";
+		};
+		5CC850BAF7BA732F60270247A8A365E5 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				30EDE2FEDB195D8B5C9F7ED4E47678C8 /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		7EBDC8DA19A158A61622F54105D5DFA4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A5D90A746CAF75DDEB8F5A7A4566AC7C /* SakuraConfig.h */,
+				FA8FF8DF3AB31E4F82756A2BD19408B5 /* SakuraConfig.m */,
+			);
+			name = Config;
+			path = pod_test/Classes/Config;
+			sourceTree = "<group>";
+		};
+		9B62F85D9FBB3D46E6CA99AC1246D026 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D280B3FF671D93539439D4E9F581593 /* Pods-pod_test_Example */,
+				1D504C6489BF99F3D7B17908A03782C6 /* Pods-pod_test_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B41EC035E8405A67861B0F15736C8EB3 /* pod_test */ = {
+			isa = PBXGroup;
+			children = (
+				38359406B1197EA3434C471A0446A2B9 /* SakuraDelegate.h */,
+				A9045DFDAC25C8E704F4FBA6E5B5488E /* SakuraKit.h */,
+				68C5E73E550D33744A338DD93402C788 /* SakuraLog.h */,
+				33C63BA81CD9B08F6D360FC7D10B0A15 /* SakuraLog.m */,
+				41908C8AA3F513C7C6B1A92DA66A0C06 /* SakuraLogHelper.h */,
+				8023C3CDF3F4F6E4A81277F4A0756C29 /* SakuraLogHelper.m */,
+				09CE98C4E4196F9D8971B5CC7543A576 /* SakuraMessage.h */,
+				17087F08FE370C4101D470BE30C3AFE0 /* SakuraMessage.m */,
+				6BCB38BEE5D7B9E98343B50D18CFE652 /* SakuraTypes.h */,
+				227EF930EBAE075EBC42B56C559F3BB9 /* SakuraTypes+Helpers.h */,
+				08F246347713F62D0C79AE15D1D73162 /* SakuraTypes+Helpers.m */,
+				7EBDC8DA19A158A61622F54105D5DFA4 /* Config */,
+				1CFCCF952287876F73F5A74F1DD521C5 /* GPB */,
+				32C2A663B227B4557FCD48FD5897EA7D /* Network */,
+				0C5614A5521758D63EBB788613B45D89 /* Pod */,
+				007CCB40A835DD95870C7FF2A0FBB47D /* Protobuf */,
+				D06DEA6F59EFD2C18A39FC1A2B8B1168 /* Reachability */,
+				D310373283F36A4B34E1A6A14FD45778 /* Socket */,
+				32548003E276231DB594275DE50BBE41 /* Support Files */,
+			);
+			name = pod_test;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3525F61F17ECD7C1022C46E00C93DC71 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FD1D6141CB487D37C12CD175C3911ECE /* Products */,
+				9B62F85D9FBB3D46E6CA99AC1246D026 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D06DEA6F59EFD2C18A39FC1A2B8B1168 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E022C1944D3A5946F134E38506FC109D /* SakuraReachability.h */,
+				8A152C3EAB6B1748B3CA5A31E7BC2DCF /* SakuraReachability.m */,
+			);
+			name = Reachability;
+			path = pod_test/Classes/Reachability;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D310373283F36A4B34E1A6A14FD45778 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD2B8F4160627846B9DF866AF69CC4 /* SakuraIO.h */,
+				BFD8A40D7C23C6A85B086E85A49CFCCE /* SakuraIO.m */,
+				58C1B56DE71D151C961E1411E22310F0 /* SakuraReconnect.h */,
+				D54486B5685AA33A84D3609FDC1A75B8 /* SakuraReconnect.m */,
+			);
+			name = Socket;
+			path = pod_test/Classes/Socket;
+			sourceTree = "<group>";
+		};
+		FD1D6141CB487D37C12CD175C3911ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F876AB5BD1D3FA345C7F4F87133BF4 /* pod_test.framework */,
+				D9ABF0221665CD2C114831140C1FF1EA /* Pods_pod_test_Example.framework */,
+				E418ED8BBFE38FCDDFD5A0E8BBBCBB8C /* Pods_pod_test_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70049638126F1F16376D89E72A72211F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDA75F8F2BB709BB308E29647C3DFEE /* Pods-pod_test_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742B31CA1BD60E2C9E7FBF53744A59D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D46FCF6ECC52AA501185C56C08D876 /* Any.pbobjc.h in Headers */,
+				1D09AF6B2BCC6785CBFDF0A88AA4AB26 /* Api.pbobjc.h in Headers */,
+				78B3D59EBF66BC44B66D575543E09C32 /* BroadcastMessage.pbobjc.h in Headers */,
+				0A8A3F3F380B73CAC278B3030BB548B4 /* ChatMessageNotify.pbobjc.h in Headers */,
+				A159C69000CA165BD6E9E9D54556480B /* ChatMessageNotifyAck.pbobjc.h in Headers */,
+				6A6A415D8DCF090C6F7612C4F29002ED /* ChatMessageReq.pbobjc.h in Headers */,
+				45A50FCFEF1F03BBBEFF8E9FB19D0669 /* ChatMessageReqAck.pbobjc.h in Headers */,
+				941231BCB948D2169DE93D5DF311909E /* ConnectReq.pbobjc.h in Headers */,
+				B01BFE718F2DA45E81321E28835CCBF4 /* ConnectReqAck.pbobjc.h in Headers */,
+				039652FD97637B73DF5BA587F3DD0A95 /* CustomerMessageReply.pbobjc.h in Headers */,
+				B0B892D793728714993B0C28822DCA13 /* CustomerMessageReplyNotify.pbobjc.h in Headers */,
+				38A76CC089B6668DF28F12E93C1EB859 /* CustomerMessageReq.pbobjc.h in Headers */,
+				676D6ECC082EFF2782DD15020FD6E374 /* CustomerMessageReqNotify.pbobjc.h in Headers */,
+				B6706E3CB428D362865390CDE86614CB /* CustomMessage.pbobjc.h in Headers */,
+				806D4476CBFE509BD69951212FEA3D83 /* DisconnectNotify.pbobjc.h in Headers */,
+				B65EE4AC2CD695B4E15D2B1B138F4779 /* DisconnectReq.pbobjc.h in Headers */,
+				3301B03AB6A2E2371A4801B5FAC72238 /* Duration.pbobjc.h in Headers */,
+				B736D467A00689FEEAC94FDA7E7486D1 /* Empty.pbobjc.h in Headers */,
+				1847738ADEC4142935027F1C19F97740 /* FieldMask.pbobjc.h in Headers */,
+				FC5595B08D8FCD85E56FA3F5826F3265 /* FileMessage.pbobjc.h in Headers */,
+				D72E9FEECA8C515CD1881D3CB2992341 /* GPBArray.h in Headers */,
+				19B6C0522F5F62DCC77857A467C63A15 /* GPBArray_PackagePrivate.h in Headers */,
+				2D73AD1FE6D93A365D956FA180C6FA05 /* GPBBootstrap.h in Headers */,
+				402751297BE4093567637E8A861B9F9F /* GPBCodedInputStream.h in Headers */,
+				58ECCCF0A75D306ED5F4B97E8824B3F9 /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				E5E57D7DF69E8A37040AD4ACDA128991 /* GPBCodedOutputStream.h in Headers */,
+				8E97FD18217853CEE5F7D0FE33B13518 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				359A0E0DCCFA3C288BF776E465D4C524 /* GPBDescriptor.h in Headers */,
+				670948851C6F0F521460B4EFCB0E0B59 /* GPBDescriptor_PackagePrivate.h in Headers */,
+				D29DB382ABB165334A800363F384F018 /* GPBDictionary.h in Headers */,
+				715029EE5BF822F93CD1E0D1D4F5B300 /* GPBDictionary_PackagePrivate.h in Headers */,
+				071E3359B9C18F8CF8AF367694BCBC4D /* GPBExtensionInternals.h in Headers */,
+				1B9BCCE810CDD9ED5DB072A250D6C3B3 /* GPBExtensionRegistry.h in Headers */,
+				0840DFFCBB90545D01EF4B3119E78857 /* GPBMessage.h in Headers */,
+				9437A27FBA51699D179462A1BC47D44F /* GPBMessage_PackagePrivate.h in Headers */,
+				D8BE5D1594C82DE32EECDF0645191D58 /* GPBProtocolBuffers.h in Headers */,
+				865861764D02C206F5723F0E20D34B8A /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				432DA26E09DDE774C31C9B8F2C70365D /* GPBRootObject.h in Headers */,
+				091A6DC33747D227C99B2434A62B7616 /* GPBRootObject_PackagePrivate.h in Headers */,
+				1E406AB594254CCA8D91F69726651587 /* GPBRuntimeTypes.h in Headers */,
+				3669E6A4A4F0A262ECF5DF590D24A0FB /* GPBUnknownField.h in Headers */,
+				F8763C21D5E83F4DC5485430F96CB708 /* GPBUnknownField_PackagePrivate.h in Headers */,
+				84C06C99973C6947B1C79256BF032083 /* GPBUnknownFieldSet.h in Headers */,
+				E931708B2AFEDECC94A724E808CDF20A /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				C1C96399D2757E826A477D803404F0DC /* GPBUtilities.h in Headers */,
+				FD7AE1B99887DF6CAF4F6EC5F5BA7A5B /* GPBUtilities_PackagePrivate.h in Headers */,
+				6FBCFDC9E7DE19232605748B2BFA217E /* GPBWellKnownTypes.h in Headers */,
+				3E2C6AAF9B284F9F9C3BF9B7DE21D141 /* GPBWireFormat.h in Headers */,
+				574EC14D9288414C9E6DA5F2043DCC6E /* GroupMessageNotify.pbobjc.h in Headers */,
+				B3AE5447DC6D23AB209583AA254540FA /* GroupMessageNotifyAck.pbobjc.h in Headers */,
+				04AE6E0941A6BEAB7FC8107066D478AF /* GroupMessageReq.pbobjc.h in Headers */,
+				9477733D47CEBF9234ED486D523D4033 /* GroupMessageReqAck.pbobjc.h in Headers */,
+				145A4AB726A2C2771491ACCF869B0671 /* HeartbeatReq.pbobjc.h in Headers */,
+				AA6815ED4F14EB15608B244E4B650696 /* HeartbeatReqAck.pbobjc.h in Headers */,
+				11F43742643254AA9B0FB3C32C96D815 /* ImageMessage.pbobjc.h in Headers */,
+				916EC74CCA63E0DDF81A8F8C2E7740A8 /* MessageBody.pbobjc.h in Headers */,
+				4A2E724EC2742F1761D16BF6F90C348D /* MessageType.pbobjc.h in Headers */,
+				15EEF3D70D6E3220F5F4563B5AEC39C2 /* NewsMessage.pbobjc.h in Headers */,
+				8725D0D84DEEDBFBFD31DFFA1F962DDE /* pod_test-umbrella.h in Headers */,
+				9FBEF62B746B0349D60598D13BDC166D /* Protocol.pbobjc.h in Headers */,
+				9B3B744F5DB0A63A9DFCB912B20A3476 /* ProtocolType.pbobjc.h in Headers */,
+				44ADF91E656A0E2D783E9E37A24D33A7 /* RecallMessage.pbobjc.h in Headers */,
+				A386BEF632F4FDB249023B46D461B104 /* ReceiveStateMessageNotify.pbobjc.h in Headers */,
+				7537219A3682CEC4C05952FBE846131F /* ReceiveStateMessageReq.pbobjc.h in Headers */,
+				B1C72BE25C34E4DE875033B7915BEFB7 /* RemindMessage.pbobjc.h in Headers */,
+				3AB30AA48039D742977703EAEDFBEA53 /* SakuraApi.h in Headers */,
+				BE4EEC8720A6CD6EDA1CC277619D6A3B /* SakuraConfig.h in Headers */,
+				70C54901C325D5CEA3E1E5B88F7D397D /* SakuraDelegate.h in Headers */,
+				1447E481EDCE8A7AADBD5DFB91F9BAD2 /* SakuraFormData.h in Headers */,
+				0531F034E28A2A973BDC950FCC92C6EF /* SakuraHttpUtils.h in Headers */,
+				3E75E293AB9BA84B3330A25DD3C380F3 /* SakuraIO.h in Headers */,
+				D4C31A621F1347E7BFC82E4B0A43530C /* SakuraKit.h in Headers */,
+				CE17CA7D446D1034BDE7B72379BEA80C /* SakuraLog.h in Headers */,
+				3341FA6CF51B8F9DBCCBD3803A2898A2 /* SakuraLogHelper.h in Headers */,
+				B08EFB18D5FF81ED0D37E7A276108A93 /* SakuraMessage.h in Headers */,
+				461BDDD0A6C4F8EF7B77EE14394F1A78 /* SakuraReachability.h in Headers */,
+				8D648E6E19BE09EB621BC3F9E3D58A62 /* SakuraReconnect.h in Headers */,
+				C3A35201FF5244007FF62366EE576400 /* SakuraTaskDelegate.h in Headers */,
+				457D908F4D2283D9697323B7713A1F57 /* SakuraTypes+Helpers.h in Headers */,
+				97850E111ADBD38DE28C66608C672487 /* SakuraTypes.h in Headers */,
+				2943B0D067427C72CB8DAF26B2E44000 /* SakuraURLRequestSerialization.h in Headers */,
+				22B47C39FB75A99E6EAFC63654571F2F /* SessionStateMessageNotify.pbobjc.h in Headers */,
+				A744C69011869802DE96463A028A595F /* SessionStateMessageReq.pbobjc.h in Headers */,
+				26C69213B4DE77744734C875B678AF75 /* ShortVideoMessage.pbobjc.h in Headers */,
+				F4750E86EECD3B58C6EE83CF31A6655B /* SourceContext.pbobjc.h in Headers */,
+				96F93CDA319707AE3A415BC3E3E8CCDA /* Struct.pbobjc.h in Headers */,
+				0DDFE17E440CCAFE352C445A4DDAF6DB /* SystemMessage.pbobjc.h in Headers */,
+				8ED650BEA9B0DA383A59F3E5BE61128E /* SystemMessageNotify.pbobjc.h in Headers */,
+				F757CD983E242ECDF30C58D5E492543B /* TextMessage.pbobjc.h in Headers */,
+				540D15FB7A11007A1DCA0E663A1F08F3 /* Timestamp.pbobjc.h in Headers */,
+				C04D6105BD786CCAC03FD8AE73CD0DB4 /* Type.pbobjc.h in Headers */,
+				6337EEA8F42E85FD818A4DD752915213 /* VideoMessage.pbobjc.h in Headers */,
+				60F8530E4CA12BC8AC20D4C3E9CF6A5A /* VoiceMessage.pbobjc.h in Headers */,
+				A601970A20EA527FB5C5DEC0700096E3 /* Wrappers.pbobjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BB372629D102F783E598E88DA3175C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0979A676935EE2870F8EB9F4D736C5A4 /* Pods-pod_test_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35033AADF157D14EA1A29D9275B88013 /* pod_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACF64CE6A6C1C4FD3299EE5FD1EB12E /* Build configuration list for PBXNativeTarget "pod_test" */;
+			buildPhases = (
+				742B31CA1BD60E2C9E7FBF53744A59D4 /* Headers */,
+				BF0282FDC5A81C0735E763EB2D95A34E /* Sources */,
+				32DDAD64FAF884F53807629434BBAE9A /* Frameworks */,
+				45E0997DAD4ADFC154F7B03FA92A7806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pod_test;
+			productName = pod_test;
+			productReference = D5F876AB5BD1D3FA345C7F4F87133BF4 /* pod_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C8A83AEF9153EFFB63B6E94828F0EFB /* Pods-pod_test_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3657D9457511638ED7C856E81F10AE /* Build configuration list for PBXNativeTarget "Pods-pod_test_Example" */;
+			buildPhases = (
+				F5BB372629D102F783E598E88DA3175C /* Headers */,
+				ED4FBF9E08E4D8B94CE3D013BC6A0D83 /* Sources */,
+				88E78AAB6585B90EE038318407B86D0E /* Frameworks */,
+				06324A48486B0EA721D70B6C5DE6C309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFD6D81DFF2F0E9A44E25DF3D8DEE59 /* PBXTargetDependency */,
+			);
+			name = "Pods-pod_test_Example";
+			productName = "Pods-pod_test_Example";
+			productReference = D9ABF0221665CD2C114831140C1FF1EA /* Pods_pod_test_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68F2901F43E840D6A6861385023B64E0 /* Pods-pod_test_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71ED737FA4090257200DF541A40D9FAE /* Build configuration list for PBXNativeTarget "Pods-pod_test_Tests" */;
+			buildPhases = (
+				70049638126F1F16376D89E72A72211F /* Headers */,
+				7E4D00F8B4AB6CB8F5B1258475611715 /* Sources */,
+				A1327B3F41896468592CA4D476984986 /* Frameworks */,
+				5EEDCA7C32CD7385268AF3000471E020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F935D161A82E8954950000DA73E7EBA /* PBXTargetDependency */,
+			);
+			name = "Pods-pod_test_Tests";
+			productName = "Pods-pod_test_Tests";
+			productReference = E418ED8BBFE38FCDDFD5A0E8BBBCBB8C /* Pods_pod_test_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FD1D6141CB487D37C12CD175C3911ECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35033AADF157D14EA1A29D9275B88013 /* pod_test */,
+				4C8A83AEF9153EFFB63B6E94828F0EFB /* Pods-pod_test_Example */,
+				68F2901F43E840D6A6861385023B64E0 /* Pods-pod_test_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06324A48486B0EA721D70B6C5DE6C309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E0997DAD4ADFC154F7B03FA92A7806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEDCA7C32CD7385268AF3000471E020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4D00F8B4AB6CB8F5B1258475611715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE675897C970918AE38834E13E587DB4 /* Pods-pod_test_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0282FDC5A81C0735E763EB2D95A34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1817D8F06A5AE2E6B4CE02A6C0806825 /* Any.pbobjc.m in Sources */,
+				2B4F4AFFB74A439468E2CA176E15900D /* Api.pbobjc.m in Sources */,
+				94B081EDFE5CD0FD3D7FFB64916000ED /* BroadcastMessage.pbobjc.m in Sources */,
+				9B4DA858F0F5666C7F5DE444DE6A1B45 /* ChatMessageNotify.pbobjc.m in Sources */,
+				71ECF7F36F3491DDF6DE2C7C099462B0 /* ChatMessageNotifyAck.pbobjc.m in Sources */,
+				5EFF97F256EB4CF9626AE2F113BC2868 /* ChatMessageReq.pbobjc.m in Sources */,
+				5A4290220830B6B15597E21EBE7DC83B /* ChatMessageReqAck.pbobjc.m in Sources */,
+				C80CE127EA50964865C5C7871A284EF7 /* ConnectReq.pbobjc.m in Sources */,
+				3D527A1C8D2B7564DC68AC4F2246D51C /* ConnectReqAck.pbobjc.m in Sources */,
+				CB0B1D2C3AB26E2B9287D646211F6A0A /* CustomerMessageReply.pbobjc.m in Sources */,
+				75013EA9CC438256A7C4F9183707ACD9 /* CustomerMessageReplyNotify.pbobjc.m in Sources */,
+				097AAE881195193F90EFE8B0E91D5C1C /* CustomerMessageReq.pbobjc.m in Sources */,
+				E6AF4464F0B2323DADECBDFCCDD198D5 /* CustomerMessageReqNotify.pbobjc.m in Sources */,
+				8283DF38687D13C25CFC4527761D33BE /* CustomMessage.pbobjc.m in Sources */,
+				EA8129A067539E713EB88378597F1E49 /* DisconnectNotify.pbobjc.m in Sources */,
+				BB72E13B4E70E6B2BCBAF975A1325D3C /* DisconnectReq.pbobjc.m in Sources */,
+				157C6F165E2540A5C588A4020B297CFE /* Duration.pbobjc.m in Sources */,
+				39564C3B1E2A2E1C09B8D1DFCD48DAA5 /* Empty.pbobjc.m in Sources */,
+				9BA9A7AA5E7CD39DFF1C0D9826F7A244 /* FieldMask.pbobjc.m in Sources */,
+				4A70E35E86E4723085348763E8514D07 /* FileMessage.pbobjc.m in Sources */,
+				82F6459AEA43D83825F423694CE5280E /* GPBArray.m in Sources */,
+				46FCBF8B9390DD730C9DF8CD60281770 /* GPBCodedInputStream.m in Sources */,
+				5521C9C94D13F36B71E824ACE807205C /* GPBCodedOutputStream.m in Sources */,
+				78A7A9D7A783836C2438E8178BB3BE83 /* GPBDescriptor.m in Sources */,
+				30FA099B4953919F465F6D09A8D6B61B /* GPBDictionary.m in Sources */,
+				9FDF6ECCCF560D0DEA17F376E5D78F97 /* GPBExtensionInternals.m in Sources */,
+				762B704BFF9B76829A57A6633FBFCCB3 /* GPBExtensionRegistry.m in Sources */,
+				EFEDD47D9741E0E13BC78F11BBF204D6 /* GPBMessage.m in Sources */,
+				92648C365D9885C1947DAFFCDCDCB859 /* GPBRootObject.m in Sources */,
+				2A08E44EC9D456C32F503312522E4A45 /* GPBUnknownField.m in Sources */,
+				E156961E9FD2C1EACD16125E42F68B7B /* GPBUnknownFieldSet.m in Sources */,
+				1A2A27F08EAC54D1F691EFF9A8019367 /* GPBUtilities.m in Sources */,
+				E4E85C501BFEF54773E237FEABCC6354 /* GPBWellKnownTypes.m in Sources */,
+				2939888F1218588EBFD559AF8526131A /* GPBWireFormat.m in Sources */,
+				6F5DE5C20FC58ADF6CE193E435B3EDA5 /* GroupMessageNotify.pbobjc.m in Sources */,
+				2551A55C40100CC284FFB408817C6946 /* GroupMessageNotifyAck.pbobjc.m in Sources */,
+				9470197A557F43B8B3462D2542FDA8B5 /* GroupMessageReq.pbobjc.m in Sources */,
+				CDE465E6DB45C6C8A1669F5DB227E92B /* GroupMessageReqAck.pbobjc.m in Sources */,
+				9913779E7FBB05B72479DE2C39852BB6 /* HeartbeatReq.pbobjc.m in Sources */,
+				330A5894DBFB2B0742C37A1E9D28D3A2 /* HeartbeatReqAck.pbobjc.m in Sources */,
+				2292C2B9402BCCA7DF6E0D1593A26BF6 /* ImageMessage.pbobjc.m in Sources */,
+				360925542E0F9DD811D67880C48157C7 /* MessageBody.pbobjc.m in Sources */,
+				CA8A291B531048D2D3D88B101C5BCAAB /* MessageType.pbobjc.m in Sources */,
+				AB7995BC68404A2E2304424879DEF0F9 /* NewsMessage.pbobjc.m in Sources */,
+				C79BFC88871E7E09DD2E23C5A708B74D /* pod_test-dummy.m in Sources */,
+				5BC9FE3157B897681F56E063A059AABB /* Protocol.pbobjc.m in Sources */,
+				A8B2F0A5575263CE40FED690A86129C4 /* ProtocolType.pbobjc.m in Sources */,
+				8D16003C3888559C1D87D3E25151A510 /* RecallMessage.pbobjc.m in Sources */,
+				ED8378B63177DFB8E5C0D5ED58CB3DA2 /* ReceiveStateMessageNotify.pbobjc.m in Sources */,
+				279BD234D9951EC9F1C71BB0236B57C1 /* ReceiveStateMessageReq.pbobjc.m in Sources */,
+				B540C34D23846D7A9B61DEFD761F6E9C /* RemindMessage.pbobjc.m in Sources */,
+				9F5DB0E6B54449B6AFC8A965C2172EEF /* SakuraApi.m in Sources */,
+				1C15BA9389F2221B14C95B34806F35B8 /* SakuraConfig.m in Sources */,
+				F8C7FEB472CA17982FB82AE3DB3106AC /* SakuraFormData.m in Sources */,
+				9AB6C7ED9AAB1CF429E3E8CF5B48ED4D /* SakuraHttpUtils.m in Sources */,
+				CBE7EE90B6268959E3CAEA9E57190F59 /* SakuraIO.m in Sources */,
+				F682D294BBADC4461AA2496E4F446E60 /* SakuraLog.m in Sources */,
+				A43CABC6D07D8F8845FBBB0832DEFF4D /* SakuraLogHelper.m in Sources */,
+				8A3BC67AB03BE38927D7C07154D4EB5E /* SakuraMessage.m in Sources */,
+				9AFE2C0E9E363ED1C7C17DCF51C84983 /* SakuraReachability.m in Sources */,
+				9FE34E5B2C9A4BC4C9C06C3543550B2E /* SakuraReconnect.m in Sources */,
+				F4E1CDA4D3582D672A2D4AD6243457AC /* SakuraTaskDelegate.m in Sources */,
+				EB003931A72AD7C0054B5FC3B58AE246 /* SakuraTypes+Helpers.m in Sources */,
+				09D3A649106276FF1A3EBCD6A971742B /* SakuraURLRequestSerialization.m in Sources */,
+				78D1C7CB68FEF42F17A1E6A945CB4363 /* SessionStateMessageNotify.pbobjc.m in Sources */,
+				C2E846398C2101F09CBC601DFA6234FA /* SessionStateMessageReq.pbobjc.m in Sources */,
+				48DD3E5EB5E38461D0753CC833D03146 /* ShortVideoMessage.pbobjc.m in Sources */,
+				921E61017376425B34C32F7CBAE67BEF /* SourceContext.pbobjc.m in Sources */,
+				D6F554B88A91C622C2E40B9F0DF7C21C /* Struct.pbobjc.m in Sources */,
+				F4598CD36208F2FE895BC36EBF633707 /* SystemMessage.pbobjc.m in Sources */,
+				C347F3F5214ED1CBDB7C89CA8BF668BF /* SystemMessageNotify.pbobjc.m in Sources */,
+				33E8E7E6E42493EC4696449AA0A9D5CE /* TextMessage.pbobjc.m in Sources */,
+				A4AC587638EDB2FCDC7A43164BEEDF56 /* Timestamp.pbobjc.m in Sources */,
+				C96B35FB8860F9CF926560831C472D5D /* Type.pbobjc.m in Sources */,
+				AD42EC2BCBB99C207D884536AD0C22FC /* VideoMessage.pbobjc.m in Sources */,
+				C50DEA65D9B4FB31C0D4DAE2C34DDBDF /* VoiceMessage.pbobjc.m in Sources */,
+				373DA5229B1569B5682EB4D7F96CA98A /* Wrappers.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4FBF9E08E4D8B94CE3D013BC6A0D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F48C1B8EFF4BA0346971BFCB207844 /* Pods-pod_test_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFD6D81DFF2F0E9A44E25DF3D8DEE59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pod_test;
+			target = 35033AADF157D14EA1A29D9275B88013 /* pod_test */;
+			targetProxy = C219E9DC2EED4CE5B8D6106DD2E0B01E /* PBXContainerItemProxy */;
+		};
+		6F935D161A82E8954950000DA73E7EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pod_test_Example";
+			target = 4C8A83AEF9153EFFB63B6E94828F0EFB /* Pods-pod_test_Example */;
+			targetProxy = E1002A659DE795569364E51AC0E23529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0F78542F799C7D4B47E707978104DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4DB0027706BB092FD1BAB0F72C47F9 /* pod_test.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pod_test/pod_test-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pod_test/pod_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pod_test/pod_test.modulemap";
+				PRODUCT_MODULE_NAME = pod_test;
+				PRODUCT_NAME = pod_test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5246F052C10CB44A44EC3E67D1F80484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488E9FC5B1C9D28297E5EDE9D3BF8A1C /* Pods-pod_test_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7223D4157070C470B123480A816B48CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4DB0027706BB092FD1BAB0F72C47F9 /* pod_test.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pod_test/pod_test-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pod_test/pod_test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pod_test/pod_test.modulemap";
+				PRODUCT_MODULE_NAME = pod_test;
+				PRODUCT_NAME = pod_test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E6DF8CDA669C7A2651C8AE32B5A23A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A085E76CA6554A02A7968ED49453B0 /* Pods-pod_test_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9534475384F6EA6899AFD3FE5F3B849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A99D987AC025E66E4B7153F1780DCCC /* Pods-pod_test_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pod_test_Example/Pods-pod_test_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5C8A1674924F6D273F1A00A9E477A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DC6567DE9F77B102366CB19C24A789 /* Pods-pod_test_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pod_test_Tests/Pods-pod_test_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACF64CE6A6C1C4FD3299EE5FD1EB12E /* Build configuration list for PBXNativeTarget "pod_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7223D4157070C470B123480A816B48CD /* Debug */,
+				1A0F78542F799C7D4B47E707978104DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71ED737FA4090257200DF541A40D9FAE /* Build configuration list for PBXNativeTarget "Pods-pod_test_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C8A1674924F6D273F1A00A9E477A2D /* Debug */,
+				8E6DF8CDA669C7A2651C8AE32B5A23A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3657D9457511638ED7C856E81F10AE /* Build configuration list for PBXNativeTarget "Pods-pod_test_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9534475384F6EA6899AFD3FE5F3B849 /* Debug */,
+				5246F052C10CB44A44EC3E67D1F80484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
